@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/FreeRun-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-auth/FreeRun-auth-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-auth/FreeRun-auth-gateway-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-auth/FreeRun-auth-resource-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-auth/FreeRun-auth-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-auth/FreeRun-gateway-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-course/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-course/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-exam/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-exam/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-learning/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-media/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-media/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-message/FreeRun-message-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-message/FreeRun-message-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-message/FreeRun-message-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-message/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-pay/FreeRun-pay-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-pay/FreeRun-pay-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-pay/FreeRun-pay-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-pay/FreeRun-pay-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-pay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-trade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-trade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRun-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRunexam/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FreeRunexam/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trade/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
