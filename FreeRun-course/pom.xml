@@ -113,7 +113,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.tianji.course.CourseApplication</mainClass>
+                    <mainClass>com.FreeRun.course.CourseApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -84,7 +84,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.tianji.auth.AuthApplication</mainClass>
+                    <mainClass>com.FreeRun.auth.AuthApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

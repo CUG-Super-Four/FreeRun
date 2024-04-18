@@ -92,7 +92,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.tianji.data.DataCenterApplication</mainClass>
+                    <mainClass>com.FreeRun.data.DataCenterApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

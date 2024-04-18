@@ -97,7 +97,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.tianji.search.SearchApplication</mainClass>
+                    <mainClass>com.FreeRun.search.SearchApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

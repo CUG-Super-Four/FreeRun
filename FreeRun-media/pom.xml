@@ -98,7 +98,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.tianji.media.MediaApplication</mainClass>
+                    <mainClass>com.FreeRun.media.MediaApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
