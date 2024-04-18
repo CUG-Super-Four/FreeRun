@@ -25,13 +25,6 @@
         <module>FreeRun-search</module>
         <module>FreeRun-user</module>
         <module>FreeRun-trade</module>
-        <module>FreeRun-message/FreeRun-message-api</module>
-        <module>FreeRun-message/FreeRun-message-domain</module>
-        <module>FreeRun-message/FreeRun-message-service</module>
-        <module>FreeRun-auth/FreeRun-auth-common</module>
-        <module>FreeRun-auth/FreeRun-auth-gateway-sdk</module>
-        <module>FreeRun-auth/FreeRun-auth-resource-sdk</module>
-        <module>FreeRun-auth/FreeRun-auth-service</module>
     </modules>
 
     <parent>
