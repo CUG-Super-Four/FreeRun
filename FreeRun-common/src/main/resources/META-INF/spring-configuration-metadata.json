@@ -106,7 +106,7 @@
       "name": "freerun.mq.username",
       "type": "java.lang.String",
       "description": "rabbitmq的用户名",
-      "defaultValue": "freeruan"
+      "defaultValue": "freerun"
     },
     {
       "name": "freerun.mq.password",
