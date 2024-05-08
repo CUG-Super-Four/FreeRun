@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ com.freerun.common.autoconfigure.mq.MqConfig,\
+ com.freerun.common.autoconfigure.mvc.JsonConfig,\
+ com.freerun.common.autoconfigure.mvc.MvcConfig,\
+ com.freerun.common.autoconfigure.mvc.ParamCheckerConfig,\
+ com.freerun.common.autoconfigure.mybatis.MybatisConfig,\
+ com.freerun.common.autoconfigure.redisson.RedissonConfig,\
+ com.freerun.common.autoconfigure.swagger.Knife4jConfiguration, \
+ com.freerun.common.autoconfigure.xxljob.XxlJobConfig
