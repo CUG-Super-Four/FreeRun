@@ -1,0 +1,202 @@
+14:27:33.975-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+14:27:34.697-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:27:34.698-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:27:34.712-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+14:27:34.863-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+14:27:35.012-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:27:35.013-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:27:35.014-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:27:35.142-[DESKTOP-95ETNH9][sys]-- WARN 2060 --- [           main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+14:27:35.155-[DESKTOP-95ETNH9][sys]-- INFO 2060 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:27:35.179-[DESKTOP-95ETNH9][sys]--ERROR 2060 --- [           main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.freerun.gateway.GatewayApplication.main(GatewayApplication.java:19) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at com.freerun.gateway.config.AuthProperties.afterPropertiesSet(AuthProperties.java:20) ~[classes/:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 14 common frames omitted
+14:27:35.180-[DESKTOP-95ETNH9][sys]-- WARN 2060 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:31:18.116-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+14:31:18.646-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:31:18.648-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:31:18.661-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+14:31:18.806-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+14:31:18.921-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:31:18.922-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:31:18.923-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:31:19.022-[DESKTOP-95ETNH9][sys]-- WARN 18844 --- [           main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+14:31:19.034-[DESKTOP-95ETNH9][sys]-- INFO 18844 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:31:19.059-[DESKTOP-95ETNH9][sys]--ERROR 18844 --- [           main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.freerun.gateway.GatewayApplication.main(GatewayApplication.java:19) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at com.freerun.gateway.config.AuthProperties.afterPropertiesSet(AuthProperties.java:20) ~[classes/:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 14 common frames omitted
+14:31:19.061-[DESKTOP-95ETNH9][sys]-- WARN 18844 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:32:32.013-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+14:32:32.503-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:32:32.504-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:32:32.516-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+14:32:32.648-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+14:32:32.750-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:32:32.751-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:32:32.752-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:32:32.845-[DESKTOP-95ETNH9][sys]-- WARN 24336 --- [           main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+14:32:32.858-[DESKTOP-95ETNH9][sys]-- INFO 24336 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:32:32.880-[DESKTOP-95ETNH9][sys]--ERROR 24336 --- [           main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.freerun.gateway.GatewayApplication.main(GatewayApplication.java:19) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at com.freerun.gateway.config.AuthProperties.afterPropertiesSet(AuthProperties.java:20) ~[classes/:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 14 common frames omitted
+14:33:38.823-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+14:33:39.354-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:33:39.355-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:33:39.368-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+14:33:39.503-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+14:33:39.612-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:33:39.613-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:33:39.614-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:33:39.708-[DESKTOP-95ETNH9][sys]-- WARN 25252 --- [           main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+14:33:39.720-[DESKTOP-95ETNH9][sys]-- INFO 25252 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:33:39.742-[DESKTOP-95ETNH9][sys]--ERROR 25252 --- [           main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\FreeRun\FreeRun\FreeRun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.freerun.gateway.GatewayApplication.main(GatewayApplication.java:19) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at com.freerun.gateway.config.AuthProperties.afterPropertiesSet(AuthProperties.java:20) ~[classes/:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 14 common frames omitted
+14:33:39.743-[DESKTOP-95ETNH9][sys]-- WARN 25252 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:34:21.199-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+14:34:21.696-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:34:21.697-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:34:21.709-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+14:34:21.837-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+14:34:21.936-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:34:21.937-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:34:21.939-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:34:22.252-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+14:34:22.255-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:34:22.255-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+14:34:22.255-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:34:22.401-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@auth-service -> [{"instanceId":"8.149.138.1#8081#DEFAULT#DEFAULT_GROUP@@auth-service","ip":"8.149.138.1","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@auth-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:34:22.404-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@auth-service -> [{"instanceId":"8.149.138.1#8081#DEFAULT#DEFAULT_GROUP@@auth-service","ip":"8.149.138.1","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@auth-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:34:22.407-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+14:34:22.408-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+14:34:22.957-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+14:34:23.474-[DESKTOP-95ETNH9][sys]-- WARN 12292 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+14:34:23.824-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 10010
+14:34:24.157-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=10010, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@gateway-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+14:34:24.158-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@gateway-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=10010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+14:34:24.217-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP gateway-service 8.149.138.1:10010 register finished
+14:34:24.313-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] com.freerun.gateway.GatewayApplication   : Started GatewayApplication in 4.774 seconds (JVM running for 5.357)
+14:34:24.315-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service-dev.yaml+DEFAULT_GROUP
+14:34:24.316-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+14:34:24.316-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service-dev.yaml, group=DEFAULT_GROUP
+14:34:24.316-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service+DEFAULT_GROUP
+14:34:24.317-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service, group=DEFAULT_GROUP, cnt=1
+14:34:24.317-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service, group=DEFAULT_GROUP
+14:34:24.327-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service.yaml+DEFAULT_GROUP
+14:34:24.327-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:34:24.327-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service.yaml, group=DEFAULT_GROUP
+14:34:24.328-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [           main] com.freerun.gateway.GatewayApplication   : --/
+---------------------------------------------------------------------------------------
+	Application 'gateway-service' is running! Access URLs:
+	Local: 		http://localhost:10010
+	External: 	http://172.27.91.156:10010
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+14:34:24.724-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:34:24.725-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:34:43.470-[DESKTOP-95ETNH9][sys]--ERROR 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载jwk秘钥失败，原因：ConnectException: Connection timed out: connect
+14:34:53.473-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+14:34:53.473-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+14:34:53.473-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+14:35:14.512-[DESKTOP-95ETNH9][sys]--ERROR 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载jwk秘钥失败，原因：ConnectException: Connection timed out: connect
+14:35:24.516-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+14:35:24.516-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+14:35:24.516-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+14:35:45.571-[DESKTOP-95ETNH9][sys]--ERROR 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载jwk秘钥失败，原因：ConnectException: Connection timed out: connect
