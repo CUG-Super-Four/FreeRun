@@ -1,0 +1,89 @@
+14:51:18.885-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.freerun.data.DataCenterApplication   : The following 1 profile is active: "dev"
+14:51:19.858-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:51:19.861-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:51:19.884-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+14:51:20.100-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.freerun.data.mapper]' package. Please check your configuration.
+14:51:20.183-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=721a269f-6132-343e-b202-8bbecbdd296f
+14:51:20.425-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:51:20.428-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:51:20.429-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$652/0x00000008005efc40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:51:20.432-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:51:20.458-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:51:20.460-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:51:20.694-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+14:51:20.705-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:51:20.706-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+14:51:20.827-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:51:20.828-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1931 ms
+14:51:21.623-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+14:51:22.592-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:22.775-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:22.983-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] org.redisson.Version                     : Redisson 3.13.6
+14:51:23.375-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [sson-netty-4-22] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for /8.149.138.1:6379
+14:51:23.574-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [sson-netty-4-20] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for /8.149.138.1:6379
+14:51:23.639-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config init.
+14:51:23.639-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config end.
+14:51:24.157-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.176-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.225-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.250-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'exam-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.283-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.292-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'promotion-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.314-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'remark-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.323-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'search-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.331-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.340-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+14:51:24.381-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [           main] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor callback config fail, adminAddresses is null.
+14:51:24.383-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+14:51:24.412-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [       Thread-9] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+14:51:24.413-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [       Thread-9] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job, executor registry config fail, appname is null.
+14:51:24.475-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:51:24.475-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+14:51:24.475-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:51:24.547-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+14:51:24.551-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8093, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@data-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+14:51:24.551-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@data-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8093, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+14:51:24.604-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP data-service 8.149.138.1:8093 register finished
+14:51:24.927-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.freerun.data.DataCenterApplication   : Started DataCenterApplication in 7.888 seconds (JVM running for 8.591)
+14:51:24.930-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] data-service.yaml+DEFAULT_GROUP
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=data-service.yaml, group=DEFAULT_GROUP, cnt=1
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=data-service.yaml, group=DEFAULT_GROUP
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] data-service-dev.yaml+DEFAULT_GROUP
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=data-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=data-service-dev.yaml, group=DEFAULT_GROUP
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] data-service+DEFAULT_GROUP
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=data-service, group=DEFAULT_GROUP, cnt=1
+14:51:24.931-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=data-service, group=DEFAULT_GROUP
+14:51:24.932-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [           main] com.freerun.data.DataCenterApplication   : --/
+---------------------------------------------------------------------------------------
+	Application 'data-service' is running! Access URLs:
+	Local: 		http://localhost:8093
+	External: 	http://172.27.91.156:8093
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+14:51:25.641-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@data-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8093#DEFAULT#DEFAULT_GROUP@@data-service","ip":"8.149.138.1","port":8093,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@data-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:51:25.646-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@data-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8093#DEFAULT#DEFAULT_GROUP@@data-service","ip":"8.149.138.1","port":8093,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@data-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:51:36.882-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:51:36.882-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [      Thread-15] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:51:36.882-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [      Thread-15] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:51:36.883-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:51:37.013-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [       Thread-9] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server stop.
+14:51:37.013-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server destroy success.
+14:51:37.094-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:51:37.094-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@data-service:8.149.138.1:8093 from beat map.
+14:51:37.094-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@data-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8093, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+14:51:37.126-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:51:37.126-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+14:51:39.636-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+14:51:39.636-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+14:51:42.669-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+14:51:45.686-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+14:51:45.686-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+14:51:45.686-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+14:51:45.686-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+14:51:45.687-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+14:51:45.687-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:51:45.687-[DESKTOP-95ETNH9][sys]-- WARN 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:51:45.687-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+14:51:45.687-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+14:51:45.687-[DESKTOP-95ETNH9][sys]-- INFO 19560 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop

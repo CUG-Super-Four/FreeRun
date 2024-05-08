@@ -200,3 +200,47 @@ Caused by: java.lang.NullPointerException: null
 14:35:24.516-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
 14:35:24.516-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
 14:35:45.571-[DESKTOP-95ETNH9][sys]--ERROR 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载jwk秘钥失败，原因：ConnectException: Connection timed out: connect
+14:35:55.577-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+14:35:55.577-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+14:35:55.577-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+14:36:16.617-[DESKTOP-95ETNH9][sys]--ERROR 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载jwk秘钥失败，原因：ConnectException: Connection timed out: connect
+14:36:26.627-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+14:36:26.627-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+14:36:26.627-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+14:36:47.669-[DESKTOP-95ETNH9][sys]--ERROR 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载jwk秘钥失败，原因：ConnectException: Connection timed out: connect
+14:36:57.671-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+14:36:57.671-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+14:36:57.671-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+14:37:18.699-[DESKTOP-95ETNH9][sys]--ERROR 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载jwk秘钥失败，原因：ConnectException: Connection timed out: connect
+14:37:23.442-[DESKTOP-95ETNH9][sys]-- WARN 12292 --- [      Thread-12] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:37:23.442-[DESKTOP-95ETNH9][sys]-- WARN 12292 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:37:23.442-[DESKTOP-95ETNH9][sys]-- WARN 12292 --- [      Thread-12] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:37:23.443-[DESKTOP-95ETNH9][sys]-- WARN 12292 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:37:23.448-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:37:23.448-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@gateway-service:8.149.138.1:10010 from beat map.
+14:37:23.448-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@gateway-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=10010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+14:37:23.486-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:37:23.486-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+14:37:25.149-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@auth-service -> [{"instanceId":"8.149.138.1#8081#DEFAULT#DEFAULT_GROUP@@auth-service","ip":"8.149.138.1","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@auth-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:37:25.155-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@auth-service -> []
+14:37:26.232-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:37:26.237-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> []
+14:37:26.507-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+14:37:26.507-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+14:37:27.205-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@auth-service -> [{"instanceId":"8.149.138.1#8081#DEFAULT#DEFAULT_GROUP@@auth-service","ip":"8.149.138.1","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@auth-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:37:27.210-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@auth-service -> [{"instanceId":"8.149.138.1#8081#DEFAULT#DEFAULT_GROUP@@auth-service","ip":"8.149.138.1","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@auth-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+14:37:28.317-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+14:37:28.714-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+14:37:28.714-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+14:37:28.714-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+14:37:31.355-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+14:37:31.355-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+14:37:31.355-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+14:37:31.356-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+14:37:31.356-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+14:37:31.356-[DESKTOP-95ETNH9][sys]-- WARN 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:37:31.356-[DESKTOP-95ETNH9][sys]-- WARN 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:37:31.356-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+14:37:31.356-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+14:37:31.356-[DESKTOP-95ETNH9][sys]-- INFO 12292 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+14:37:31.488-[DESKTOP-95ETNH9][sys]--DEBUG 12292 --- [ionShutdownHook] c.f.a.gateway.util.JwtSignerHolder       : 销毁加载秘钥线程 AuthFetchJwkThread
