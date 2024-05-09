@@ -1,0 +1,221 @@
+15:04:18.924-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] com.freerun.pay.PayApplication           : The following 1 profile is active: "dev"
+15:04:19.976-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:04:19.979-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:04:20.009-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+15:04:20.298-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d271fea0-ec73-3376-b9e9-ccc08f32e0cc
+15:04:20.555-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:04:20.557-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:04:20.558-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$653/0x00000008005e7c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:04:20.560-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:04:20.581-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:04:20.583-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:04:20.796-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+15:04:20.807-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:04:20.807-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:04:20.916-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:04:20.917-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1981 ms
+15:04:21.004-[DESKTOP-95ETNH9][sys]-- WARN 30452 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notifyController' defined in file [C:\Users\86180\Desktop\SE-freerun\FreeRun\freerun-pay\freerun-pay-service\target\classes\com\freerun\pay\controller\NotifyController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notifyServiceImpl' defined in file [C:\Users\86180\Desktop\SE-freerun\FreeRun\freerun-pay\freerun-pay-service\target\classes\com\freerun\pay\service\impl\NotifyServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'certificatesManager' defined in class path resource [com/freerun/pay/third/wx/config/WxConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.wechat.pay.contrib.apache.httpclient.cert.CertificatesManager]: Factory method 'certificatesManager' threw exception; nested exception is java.lang.NullPointerException
+15:04:21.005-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+15:04:21.021-[DESKTOP-95ETNH9][sys]-- INFO 30452 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:04:21.045-[DESKTOP-95ETNH9][sys]--ERROR 30452 --- [           main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notifyController' defined in file [C:\Users\86180\Desktop\SE-freerun\FreeRun\freerun-pay\freerun-pay-service\target\classes\com\freerun\pay\controller\NotifyController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notifyServiceImpl' defined in file [C:\Users\86180\Desktop\SE-freerun\FreeRun\freerun-pay\freerun-pay-service\target\classes\com\freerun\pay\service\impl\NotifyServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'certificatesManager' defined in class path resource [com/freerun/pay/third/wx/config/WxConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.wechat.pay.contrib.apache.httpclient.cert.CertificatesManager]: Factory method 'certificatesManager' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.freerun.pay.PayApplication.main(PayApplication.java:19) ~[classes/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'notifyServiceImpl' defined in file [C:\Users\86180\Desktop\SE-freerun\FreeRun\freerun-pay\freerun-pay-service\target\classes\com\freerun\pay\service\impl\NotifyServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'certificatesManager' defined in class path resource [com/freerun/pay/third/wx/config/WxConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.wechat.pay.contrib.apache.httpclient.cert.CertificatesManager]: Factory method 'certificatesManager' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'certificatesManager' defined in class path resource [com/freerun/pay/third/wx/config/WxConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.wechat.pay.contrib.apache.httpclient.cert.CertificatesManager]: Factory method 'certificatesManager' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 31 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.wechat.pay.contrib.apache.httpclient.cert.CertificatesManager]: Factory method 'certificatesManager' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 45 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.freerun.pay.third.wx.config.WxConfiguration.certificatesManager(WxConfiguration.java:34) ~[classes/:na]
+	at com.freerun.pay.third.wx.config.WxConfiguration$$EnhancerBySpringCGLIB$$f2698e8a.CGLIB$certificatesManager$0(<generated>) ~[classes/:na]
+	at com.freerun.pay.third.wx.config.WxConfiguration$$EnhancerBySpringCGLIB$$f2698e8a$$FastClassBySpringCGLIB$$2c665911.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.22.jar:5.3.22]
+	at com.freerun.pay.third.wx.config.WxConfiguration$$EnhancerBySpringCGLIB$$f2698e8a.certificatesManager(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 46 common frames omitted
+15:04:21.046-[DESKTOP-95ETNH9][sys]-- WARN 30452 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:05:10.068-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.freerun.pay.PayApplication           : The following 1 profile is active: "dev"
+15:05:10.664-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:05:10.665-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:05:10.684-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+15:05:10.851-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8818201a-b28c-335a-9f78-b2bad922baf3
+15:05:11.027-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:11.030-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:11.030-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$653/0x00000008005e7c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:11.032-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:11.050-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:11.052-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:05:11.211-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+15:05:11.218-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:05:11.218-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:05:11.332-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:05:11.333-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1255 ms
+15:05:12.106-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ate_cert_thread] c.w.p.c.a.h.cert.CertificatesManager     : Begin update Certificates.Date:2024-05-09T07:05:12.106975700Z
+15:05:12.365-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ate_cert_thread] c.w.p.c.a.h.cert.CertificatesManager     : Finish update Certificates.Date:2024-05-09T07:05:12.365196Z
+15:05:13.172-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:05:13.496-[DESKTOP-95ETNH9][sys]--DEBUG 33720 --- [           main] c.f.c.a.redisson.RedissonConfig          : 尝试初始化RedissonClient
+15:05:13.580-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] org.redisson.Version                     : Redisson 3.13.6
+15:05:14.257-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [sson-netty-2-17] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for /8.149.138.1:6379
+15:05:14.386-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [sson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for /8.149.138.1:6379
+15:05:14.445-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config init.
+15:05:14.445-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config end.
+15:05:15.059-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job register jobhandler success, name:payOrderCheckHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@2ce7ec5f[class com.freerun.pay.tasks.PayOrderCheckTask#checkPayOrderStatus]
+15:05:15.059-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job register jobhandler success, name:refundOrderCheckHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@65bc50c9[class com.freerun.pay.tasks.RefundOrderCheckTask#checkRefundOrderStatus]
+15:05:15.135-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [      Thread-11] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+15:05:15.178-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:05:15.178-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+15:05:15.179-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:05:15.308-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+15:05:15.312-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8087, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@pay-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+15:05:15.312-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@pay-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+15:05:15.335-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP pay-service 8.149.138.1:8087 register finished
+15:05:15.681-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.freerun.pay.PayApplication           : Started PayApplication in 7.15 seconds (JVM running for 7.755)
+15:05:15.684-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service+DEFAULT_GROUP
+15:05:15.685-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service, group=DEFAULT_GROUP, cnt=1
+15:05:15.685-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service, group=DEFAULT_GROUP
+15:05:15.685-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service-dev.yaml+DEFAULT_GROUP
+15:05:15.685-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+15:05:15.685-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service-dev.yaml, group=DEFAULT_GROUP
+15:05:15.690-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service.yaml+DEFAULT_GROUP
+15:05:15.690-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:05:15.690-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service.yaml, group=DEFAULT_GROUP
+15:05:15.691-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [           main] com.freerun.pay.PayApplication           : --/
+---------------------------------------------------------------------------------------
+	Application 'pay-service' is running! Access URLs:
+	Local: 		http://localhost:8087
+	External: 	http://172.27.168.7:8087
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+15:05:16.444-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:05:16.447-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:05:17.291-[DESKTOP-95ETNH9][sys]--ERROR 33720 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:05:17.291-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:9999/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+15:05:35.648-[DESKTOP-95ETNH9][sys]-- WARN 33720 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:05:35.648-[DESKTOP-95ETNH9][sys]-- WARN 33720 --- [      Thread-18] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:05:35.649-[DESKTOP-95ETNH9][sys]-- WARN 33720 --- [      Thread-18] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:05:35.649-[DESKTOP-95ETNH9][sys]-- WARN 33720 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:05:35.808-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [      Thread-11] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server stop.
+15:05:37.941-[DESKTOP-95ETNH9][sys]--ERROR 33720 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:05:37.941-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:9999/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registryRemove, content=null]
+15:05:37.941-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job, executor registry thread destroy.
+15:05:37.941-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server destroy success.
+15:05:37.942-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [FileCleanThread] c.x.j.core.thread.JobLogFileCleanThread  : >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+15:05:37.943-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [rCallbackThread] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor callback thread destroy.
+15:05:37.943-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [      Thread-10] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+15:05:37.976-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:05:37.976-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@pay-service:8.149.138.1:8087 from beat map.
+15:05:37.978-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@pay-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+15:05:38.001-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:05:38.001-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+15:05:40.464-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+15:05:40.466-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+15:05:43.487-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+15:05:46.512-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- WARN 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- WARN 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
