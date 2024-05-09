@@ -12,9 +12,6 @@ import java.util.List;
  * <p>
  * 教师详情表 服务类
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-15
  */
 public interface IUserDetailService extends IService<UserDetail> {
 

@@ -17,9 +17,6 @@ import java.util.List;
  * <p>
  * 教师详情表 服务实现类
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-15
  */
 @Service
 public class UserDetailServiceImpl extends ServiceImpl<UserDetailMapper, UserDetail> implements IUserDetailService {

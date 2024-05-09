@@ -8,9 +8,6 @@ import lombok.Data;
  * <p>
  * 支付渠道vo对象
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-26
  */
 @Data
 @ApiModel(description = "支付渠道信息")

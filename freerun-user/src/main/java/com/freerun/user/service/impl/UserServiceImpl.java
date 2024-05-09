@@ -37,9 +37,6 @@ import static com.freerun.user.constants.UserErrorInfo.Msg.*;
  * <p>
  * 学员用户表 服务实现类
  * </p>
- *
- * @author 虎哥
- * @since 2022-06-28
  */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {

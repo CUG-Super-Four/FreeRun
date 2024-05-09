@@ -14,9 +14,6 @@ import java.util.List;
  * <p>
  * 订单
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-29
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

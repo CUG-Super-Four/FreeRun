@@ -12,9 +12,6 @@ import com.freerun.user.domain.vo.UserDetailVO;
  * <p>
  * 学员用户表 服务类
  * </p>
- *
- * @author 虎哥
- * @since 2022-06-28
  */
 public interface IUserService extends IService<User> {
     LoginUserDTO queryUserDetail(LoginFormDTO loginDTO, boolean isStaff);

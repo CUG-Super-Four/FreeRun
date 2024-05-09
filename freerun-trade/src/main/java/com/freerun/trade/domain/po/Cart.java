@@ -14,9 +14,6 @@ import java.time.LocalDateTime;
  * <p>
  * 购物车条目信息，也就是购物车中的课程
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-28
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

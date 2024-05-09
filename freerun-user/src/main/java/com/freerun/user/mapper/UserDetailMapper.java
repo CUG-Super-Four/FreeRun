@@ -12,9 +12,6 @@ import java.util.List;
  * <p>
  * 教师详情表 Mapper 接口
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-15
  */
 public interface UserDetailMapper extends BaseMapper<UserDetail> {
 
