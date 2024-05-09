@@ -91,3 +91,161 @@
 14:42:00.092-[DESKTOP-95ETNH9][sys]-- INFO 34880 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
 14:42:00.092-[DESKTOP-95ETNH9][sys]-- INFO 34880 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
 14:42:00.092-[DESKTOP-95ETNH9][sys]-- INFO 34880 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+15:33:47.762-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.freerun.media.MediaApplication       : The following 1 profile is active: "dev"
+15:33:48.659-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=656e621e-a668-3032-a800-5dbd7e8e431c
+15:33:48.876-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:48.881-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:48.882-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$571/0x0000000800578c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:48.884-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:48.910-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:48.913-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:49.166-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+15:33:49.177-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:33:49.177-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:33:49.324-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:33:49.324-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1548 ms
+15:33:50.670-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+15:33:50.740-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+15:33:50.757-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+15:33:50.933-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:33:51.263-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+15:33:51.275-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+15:33:51.674-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:33:51.674-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+15:33:51.674-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:33:51.746-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+15:33:51.749-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8084, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@media-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+15:33:51.750-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+15:33:51.772-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP media-service 8.149.138.1:8084 register finished
+15:33:52.101-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:33:52.102-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.freerun.media.MediaApplication       : Started MediaApplication in 5.821 seconds (JVM running for 6.569)
+15:33:52.105-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service-dev.yaml+DEFAULT_GROUP
+15:33:52.106-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+15:33:52.106-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service-dev.yaml, group=DEFAULT_GROUP
+15:33:52.106-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service+DEFAULT_GROUP
+15:33:52.106-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service, group=DEFAULT_GROUP, cnt=1
+15:33:52.106-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service, group=DEFAULT_GROUP
+15:33:52.106-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service.yaml+DEFAULT_GROUP
+15:33:52.107-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:33:52.107-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service.yaml, group=DEFAULT_GROUP
+15:33:52.107-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [           main] com.freerun.media.MediaApplication       : --/
+---------------------------------------------------------------------------------------
+	Application 'media-service' is running! Access URLs:
+	Local: 		http://localhost:8084
+	External: 	http://172.27.168.7:8084
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+15:33:52.780-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:33:52.798-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:33:55.429-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:34:05.436-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:34:08.522-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:34:18.525-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:34:21.621-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:34:31.631-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:34:34.719-[DESKTOP-95ETNH9][sys]--DEBUG 27280 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:34:42.065-[DESKTOP-95ETNH9][sys]-- WARN 27280 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:34:42.065-[DESKTOP-95ETNH9][sys]-- WARN 27280 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:34:42.066-[DESKTOP-95ETNH9][sys]-- WARN 27280 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:34:42.066-[DESKTOP-95ETNH9][sys]-- WARN 27280 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:34:42.250-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:34:42.251-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@media-service:8.149.138.1:8084 from beat map.
+15:34:42.251-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+15:34:42.274-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:34:42.274-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+15:34:42.947-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:34:42.957-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@media-service@@DEFAULT -> []
+15:34:45.293-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+15:34:45.293-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+15:34:48.336-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+15:34:51.341-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+15:34:51.341-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+15:34:51.341-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+15:34:51.341-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+15:34:51.341-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+15:34:51.341-[DESKTOP-95ETNH9][sys]-- WARN 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+15:34:51.341-[DESKTOP-95ETNH9][sys]-- WARN 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+15:34:51.342-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+15:34:51.342-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+15:34:51.342-[DESKTOP-95ETNH9][sys]-- INFO 27280 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+15:35:23.913-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.freerun.media.MediaApplication       : The following 1 profile is active: "dev"
+15:35:24.752-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=656e621e-a668-3032-a800-5dbd7e8e431c
+15:35:24.928-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:24.931-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:24.932-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$571/0x0000000800578c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:24.934-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:24.956-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:24.958-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:25.159-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+15:35:25.169-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:35:25.169-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:35:25.303-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:35:25.303-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+15:35:26.455-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+15:35:26.530-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+15:35:26.545-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+15:35:26.711-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:35:27.028-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+15:35:27.040-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+15:35:27.429-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:35:27.429-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+15:35:27.429-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:35:27.492-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+15:35:27.495-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8084, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@media-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+15:35:27.496-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+15:35:27.517-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP media-service 8.149.138.1:8084 register finished
+15:35:27.853-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:35:27.854-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.freerun.media.MediaApplication       : Started MediaApplication in 5.431 seconds (JVM running for 6.139)
+15:35:27.856-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service-dev.yaml+DEFAULT_GROUP
+15:35:27.857-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+15:35:27.857-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service-dev.yaml, group=DEFAULT_GROUP
+15:35:27.858-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service+DEFAULT_GROUP
+15:35:27.858-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service, group=DEFAULT_GROUP, cnt=1
+15:35:27.858-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service, group=DEFAULT_GROUP
+15:35:27.858-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service.yaml+DEFAULT_GROUP
+15:35:27.858-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:35:27.858-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service.yaml, group=DEFAULT_GROUP
+15:35:27.858-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [           main] com.freerun.media.MediaApplication       : --/
+---------------------------------------------------------------------------------------
+	Application 'media-service' is running! Access URLs:
+	Local: 		http://localhost:8084
+	External: 	http://172.27.168.7:8084
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+15:35:28.539-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:35:28.559-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:35:31.218-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:35:41.228-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:35:44.330-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:35:54.344-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:35:57.426-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:36:07.428-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:36:10.510-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:36:20.519-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:36:23.610-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:36:33.619-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+15:36:36.718-[DESKTOP-95ETNH9][sys]--DEBUG 9520 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+15:36:44.799-[DESKTOP-95ETNH9][sys]-- WARN 9520 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:36:44.799-[DESKTOP-95ETNH9][sys]-- WARN 9520 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:36:44.800-[DESKTOP-95ETNH9][sys]-- WARN 9520 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:36:44.802-[DESKTOP-95ETNH9][sys]-- WARN 9520 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:36:45.035-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:36:45.037-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@media-service:8.149.138.1:8084 from beat map.
+15:36:45.037-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+15:36:45.061-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:36:45.062-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+15:36:47.987-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+15:36:47.987-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+15:36:48.827-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:36:48.835-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@media-service@@DEFAULT -> []
+15:36:48.842-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+15:36:51.867-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+15:36:51.867-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+15:36:51.868-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+15:36:51.868-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+15:36:51.868-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+15:36:51.869-[DESKTOP-95ETNH9][sys]-- WARN 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+15:36:51.869-[DESKTOP-95ETNH9][sys]-- WARN 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+15:36:51.870-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+15:36:51.870-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+15:36:51.870-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop

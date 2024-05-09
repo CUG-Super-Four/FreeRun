@@ -219,3 +219,361 @@ java.net.ConnectException: Connection refused: connect
 15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
 15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
 15:05:46.513-[DESKTOP-95ETNH9][sys]-- INFO 33720 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+15:32:41.075-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.freerun.pay.PayApplication           : The following 1 profile is active: "dev"
+15:32:41.721-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:32:41.723-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:32:41.743-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15:32:41.932-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8818201a-b28c-335a-9f78-b2bad922baf3
+15:32:42.128-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:42.130-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:42.131-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$653/0x00000008005e7c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:42.133-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:42.158-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:42.161-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:32:42.362-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+15:32:42.372-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:32:42.373-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:32:42.482-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:32:42.483-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+15:32:43.251-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ate_cert_thread] c.w.p.c.a.h.cert.CertificatesManager     : Begin update Certificates.Date:2024-05-09T07:32:43.251417100Z
+15:32:43.499-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ate_cert_thread] c.w.p.c.a.h.cert.CertificatesManager     : Finish update Certificates.Date:2024-05-09T07:32:43.499646800Z
+15:32:44.265-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:32:44.564-[DESKTOP-95ETNH9][sys]--DEBUG 29272 --- [           main] c.f.c.a.redisson.RedissonConfig          : 尝试初始化RedissonClient
+15:32:44.611-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] org.redisson.Version                     : Redisson 3.13.6
+15:32:45.208-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [sson-netty-2-13] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for /8.149.138.1:6379
+15:32:45.340-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [sson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for /8.149.138.1:6379
+15:32:45.392-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config init.
+15:32:45.392-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config end.
+15:32:45.997-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job register jobhandler success, name:payOrderCheckHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@280cb0b4[class com.freerun.pay.tasks.PayOrderCheckTask#checkPayOrderStatus]
+15:32:45.997-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job register jobhandler success, name:refundOrderCheckHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@108b2321[class com.freerun.pay.tasks.RefundOrderCheckTask#checkRefundOrderStatus]
+15:32:46.053-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.xxl.job.core.util.NetUtil            : >>>>>>>>>>> xxl-job, port[9999] is in use.
+15:32:46.053-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.xxl.job.core.util.NetUtil            : >>>>>>>>>>> xxl-job, port[10000] is in use.
+15:32:46.053-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.xxl.job.core.util.NetUtil            : >>>>>>>>>>> xxl-job, port[10001] is in use.
+15:32:46.054-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.xxl.job.core.util.NetUtil            : >>>>>>>>>>> xxl-job, port[10002] is in use.
+15:32:46.083-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [      Thread-11] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 10003
+15:32:46.141-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:32:46.142-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+15:32:46.142-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:32:46.240-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+15:32:46.243-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8087, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@pay-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+15:32:46.244-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@pay-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+15:32:46.267-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP pay-service 8.149.138.1:8087 register finished
+15:32:46.606-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.freerun.pay.PayApplication           : Started PayApplication in 7.079 seconds (JVM running for 7.882)
+15:32:46.609-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service+DEFAULT_GROUP
+15:32:46.609-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service, group=DEFAULT_GROUP, cnt=1
+15:32:46.610-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service, group=DEFAULT_GROUP
+15:32:46.610-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service-dev.yaml+DEFAULT_GROUP
+15:32:46.610-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+15:32:46.610-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service-dev.yaml, group=DEFAULT_GROUP
+15:32:46.620-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service.yaml+DEFAULT_GROUP
+15:32:46.620-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:32:46.620-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service.yaml, group=DEFAULT_GROUP
+15:32:46.621-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [           main] com.freerun.pay.PayApplication           : --/
+---------------------------------------------------------------------------------------
+	Application 'pay-service' is running! Access URLs:
+	Local: 		http://localhost:8087
+	External: 	http://172.27.168.7:8087
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+15:32:47.285-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:32:47.297-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:32:48.265-[DESKTOP-95ETNH9][sys]--ERROR 29272 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:32:48.265-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10003/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+15:33:20.388-[DESKTOP-95ETNH9][sys]--ERROR 29272 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:33:20.388-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10003/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+15:33:52.532-[DESKTOP-95ETNH9][sys]--ERROR 29272 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:33:52.533-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10003/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+15:34:24.662-[DESKTOP-95ETNH9][sys]--ERROR 29272 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:34:24.662-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10003/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+15:34:42.142-[DESKTOP-95ETNH9][sys]-- WARN 29272 --- [      Thread-18] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:34:42.142-[DESKTOP-95ETNH9][sys]-- WARN 29272 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:34:42.142-[DESKTOP-95ETNH9][sys]-- WARN 29272 --- [      Thread-18] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:34:42.143-[DESKTOP-95ETNH9][sys]-- WARN 29272 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:34:42.346-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [      Thread-11] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server stop.
+15:34:44.504-[DESKTOP-95ETNH9][sys]--ERROR 29272 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:34:44.504-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10003/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registryRemove, content=null]
+15:34:44.505-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job, executor registry thread destroy.
+15:34:44.505-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server destroy success.
+15:34:44.505-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [FileCleanThread] c.x.j.core.thread.JobLogFileCleanThread  : >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+15:34:44.505-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [rCallbackThread] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor callback thread destroy.
+15:34:44.506-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [      Thread-10] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+15:34:44.542-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:34:44.542-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@pay-service:8.149.138.1:8087 from beat map.
+15:34:44.542-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@pay-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+15:34:44.566-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:34:44.566-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+15:34:46.971-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+15:34:46.971-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+15:34:47.633-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+15:34:47.641-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> []
+15:34:47.642-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+15:34:50.662-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+15:34:50.662-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+15:34:50.663-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+15:34:50.663-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+15:34:50.663-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+15:34:50.663-[DESKTOP-95ETNH9][sys]-- WARN 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+15:34:50.663-[DESKTOP-95ETNH9][sys]-- WARN 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+15:34:50.664-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+15:34:50.664-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+15:34:50.664-[DESKTOP-95ETNH9][sys]-- INFO 29272 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+15:35:52.003-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.freerun.pay.PayApplication           : The following 1 profile is active: "dev"
+15:35:52.620-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+15:35:52.622-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:35:52.640-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+15:35:52.815-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8818201a-b28c-335a-9f78-b2bad922baf3
+15:35:52.993-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:52.995-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:52.996-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$653/0x00000008005e7c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:52.998-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:53.017-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:53.019-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:35:53.206-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+15:35:53.214-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:35:53.215-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:35:53.319-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:35:53.319-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1306 ms
+15:35:54.002-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ate_cert_thread] c.w.p.c.a.h.cert.CertificatesManager     : Begin update Certificates.Date:2024-05-09T07:35:54.002798100Z
+15:35:54.269-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ate_cert_thread] c.w.p.c.a.h.cert.CertificatesManager     : Finish update Certificates.Date:2024-05-09T07:35:54.269393Z
+15:35:54.992-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:35:55.291-[DESKTOP-95ETNH9][sys]--DEBUG 33784 --- [           main] c.f.c.a.redisson.RedissonConfig          : 尝试初始化RedissonClient
+15:35:55.340-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] org.redisson.Version                     : Redisson 3.13.6
+15:35:55.948-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [isson-netty-2-1] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for /8.149.138.1:6379
+15:35:56.074-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [sson-netty-2-18] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for /8.149.138.1:6379
+15:35:56.126-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config init.
+15:35:56.126-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config end.
+15:35:56.655-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job register jobhandler success, name:payOrderCheckHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@2a3251ad[class com.freerun.pay.tasks.PayOrderCheckTask#checkPayOrderStatus]
+15:35:56.655-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job register jobhandler success, name:refundOrderCheckHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@457547a1[class com.freerun.pay.tasks.RefundOrderCheckTask#checkRefundOrderStatus]
+15:35:56.696-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.xxl.job.core.util.NetUtil            : >>>>>>>>>>> xxl-job, port[9999] is in use.
+15:35:56.696-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.xxl.job.core.util.NetUtil            : >>>>>>>>>>> xxl-job, port[10000] is in use.
+15:35:56.721-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [      Thread-11] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 10001
+15:35:56.762-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:35:56.762-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+15:35:56.763-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+15:35:56.874-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path ''
+15:35:56.877-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8087, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@pay-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+15:35:56.878-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@pay-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+15:35:56.902-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP pay-service 8.149.138.1:8087 register finished
+15:35:57.254-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.freerun.pay.PayApplication           : Started PayApplication in 6.806 seconds (JVM running for 7.448)
+15:35:57.257-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service+DEFAULT_GROUP
+15:35:57.258-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service, group=DEFAULT_GROUP, cnt=1
+15:35:57.258-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service, group=DEFAULT_GROUP
+15:35:57.258-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service-dev.yaml+DEFAULT_GROUP
+15:35:57.258-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+15:35:57.258-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service-dev.yaml, group=DEFAULT_GROUP
+15:35:57.260-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] pay-service.yaml+DEFAULT_GROUP
+15:35:57.260-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=pay-service.yaml, group=DEFAULT_GROUP, cnt=1
+15:35:57.260-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=pay-service.yaml, group=DEFAULT_GROUP
+15:35:57.261-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [           main] com.freerun.pay.PayApplication           : --/
+---------------------------------------------------------------------------------------
+	Application 'pay-service' is running! Access URLs:
+	Local: 		http://localhost:8087
+	External: 	http://172.27.168.7:8087
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+15:35:57.922-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:35:57.941-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:35:58.857-[DESKTOP-95ETNH9][sys]--ERROR 33784 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:35:58.858-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10001/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+15:36:30.985-[DESKTOP-95ETNH9][sys]--ERROR 33784 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:36:30.985-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10001/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+15:36:44.843-[DESKTOP-95ETNH9][sys]-- WARN 33784 --- [      Thread-18] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:36:44.843-[DESKTOP-95ETNH9][sys]-- WARN 33784 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:36:44.843-[DESKTOP-95ETNH9][sys]-- WARN 33784 --- [      Thread-18] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:36:44.844-[DESKTOP-95ETNH9][sys]-- WARN 33784 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:36:45.033-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [      Thread-11] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server stop.
+15:36:47.159-[DESKTOP-95ETNH9][sys]--ERROR 33784 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+15:36:47.160-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='pay-service', registryValue='http://172.27.168.7:10001/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(Connection refused: connect), for url : http://8.149.138.1:8880/xxl-job-admin/api/registryRemove, content=null]
+15:36:47.160-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job, executor registry thread destroy.
+15:36:47.160-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server destroy success.
+15:36:47.160-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [FileCleanThread] c.x.j.core.thread.JobLogFileCleanThread  : >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+15:36:47.160-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [rCallbackThread] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor callback thread destroy.
+15:36:47.161-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [      Thread-10] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+15:36:47.194-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:36:47.194-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@pay-service:8.149.138.1:8087 from beat map.
+15:36:47.194-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@pay-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+15:36:47.216-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:36:47.216-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+15:36:48.101-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8087#DEFAULT#DEFAULT_GROUP@@pay-service","ip":"8.149.138.1","port":8087,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@pay-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+15:36:48.110-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@pay-service@@DEFAULT -> []
+15:36:50.220-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+15:36:50.221-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+15:36:53.250-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+15:36:56.281-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+15:36:56.281-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+15:36:56.281-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+15:36:56.281-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+15:36:56.281-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+15:36:56.281-[DESKTOP-95ETNH9][sys]-- WARN 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+15:36:56.281-[DESKTOP-95ETNH9][sys]-- WARN 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+15:36:56.282-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+15:36:56.282-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+15:36:56.282-[DESKTOP-95ETNH9][sys]-- INFO 33784 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop

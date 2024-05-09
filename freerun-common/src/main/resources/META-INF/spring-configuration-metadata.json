@@ -100,7 +100,7 @@
       "name": "freerun.mq.vhost",
       "type": "java.lang.String",
       "description": "rabbitmq的virtual-host地址",
-      "defaultValue": "/freerun"
+      "defaultValue": "freerun"
     },
     {
       "name": "freerun.mq.username",

@@ -47,8 +47,7 @@ import static com.freerun.promotion.enums.CouponStatus.*;
  * <p>
  * 优惠券的规则信息 服务实现类
  * </p>
- *
- * @author 虎哥
+
  */
 @Service
 @RequiredArgsConstructor
