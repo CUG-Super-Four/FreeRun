@@ -10,9 +10,7 @@ import java.time.LocalDate;
  * <p>
  * 
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-02
+
  */
 @Data
 @ApiModel(description = "积分榜赛季信息")

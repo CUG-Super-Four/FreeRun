@@ -1,0 +1,187 @@
+14:53:28.515-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.freerun.message.MessageApplication   : The following 1 profile is active: "dev"
+14:53:29.501-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:53:29.503-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:53:29.524-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+14:53:29.756-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9c7f06db-8468-3a7a-9055-92da6e864606
+14:53:29.993-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:53:29.996-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:53:29.997-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$643/0x00000008005efc40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:53:29.999-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:53:30.025-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:53:30.027-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:53:30.235-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+14:53:30.243-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:53:30.243-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+14:53:30.358-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:53:30.358-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1833 ms
+14:53:31.254-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.freerun.message.config.MessageConfig   : 开始初始化执行通知任务的线程池....
+14:53:31.254-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.freerun.message.config.MessageConfig   : 初始化执行通知任务的线程池结束...
+14:53:31.395-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:31.604-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.freerun.message.config.MessageConfig   : 开始初始化短信发送任务的线程池....
+14:53:31.604-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.freerun.message.config.MessageConfig   : 初始化执行短信发送的线程池结束...
+14:53:32.024-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+14:53:32.346-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:32.361-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:32.496-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config init.
+14:53:32.496-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config end.
+14:53:33.400-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job register jobhandler success, name:publishNoticeJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@719e8f9f[class com.freerun.message.handler.NoticeJobHandler#publishNotice]
+14:53:33.424-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.435-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.450-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.461-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'exam-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.476-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.485-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'promotion-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.498-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'remark-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.508-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'search-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.517-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
+14:53:33.555-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [           main] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor callback config fail, adminAddresses is null.
+14:53:33.557-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [           main] c.xxl.job.core.executor.XxlJobExecutor   : >>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+14:53:33.657-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:53:33.658-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+14:53:33.658-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:53:33.721-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+14:53:33.725-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8085, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@message-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+14:53:33.726-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@message-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8085, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+14:53:33.749-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP message-service 8.149.138.1:8085 register finished
+14:53:33.767-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [       Thread-9] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+14:53:33.769-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [       Thread-9] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job, executor registry config fail, appname is null.
+14:53:34.168-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [8.149.138.1:5672]
+14:53:34.375-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [.149.138.1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occurred (Exception message: Socket closed)
+14:53:34.377-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+14:53:34.380-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [8.149.138.1:5672]
+14:53:34.560-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [.149.138.1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occurred (Exception message: Socket closed)
+14:53:34.566-[DESKTOP-95ETNH9][sys]--ERROR 17500 --- [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpAuthenticationException: com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:64) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:725) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2180) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2153) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2133) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:463) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:447) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1930) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1911) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1375) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1221) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:385) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1225) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173) ~[amqp-client-5.14.2.jar:5.14.2]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	... 12 common frames omitted
+14:53:34.568-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [ntContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [8.149.138.1:5672]
+14:53:34.741-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@message-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8085#DEFAULT#DEFAULT_GROUP@@message-service","ip":"8.149.138.1","port":8085,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@message-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+14:53:34.744-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [.149.138.1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occurred (Exception message: Socket closed)
+14:53:34.745-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@message-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8085#DEFAULT#DEFAULT_GROUP@@message-service","ip":"8.149.138.1","port":8085,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@message-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+14:53:34.745-[DESKTOP-95ETNH9][sys]--ERROR 17500 --- [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer received fatal exception on startup
+org.springframework.amqp.rabbit.listener.exception.FatalListenerStartupException: Authentication failure
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:619) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1376) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1221) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.springframework.amqp.AmqpAuthenticationException: com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:64) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:725) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$RabbitResourceFactory.createConnection(ConnectionFactoryUtils.java:331) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:97) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:80) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:613) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:385) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1225) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173) ~[amqp-client-5.14.2.jar:5.14.2]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	... 10 common frames omitted
+14:53:34.746-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.amqp.rabbit.config.internalRabbitListenerEndpointRegistry'; nested exception is org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
+14:53:34.747-[DESKTOP-95ETNH9][sys]--ERROR 17500 --- [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Stopping container from aborted consumer
+14:53:34.748-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+14:53:34.748-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [ntContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+14:53:34.756-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server destroy success.
+14:53:34.756-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [       Thread-9] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server stop.
+14:53:34.758-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:53:34.758-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@message-service:8.149.138.1:8085 from beat map.
+14:53:34.758-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@message-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8085, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+14:53:34.780-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:53:34.780-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+14:53:37.803-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+14:53:37.804-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+14:53:40.837-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+14:53:43.856-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+14:53:43.856-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+14:53:43.856-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+14:53:43.857-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+14:53:43.857-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+14:53:43.857-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [           main] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:53:43.857-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [           main] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:53:43.857-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+14:53:43.857-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+14:53:43.857-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+14:53:43.858-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:53:43.858-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+14:53:43.858-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+14:53:44.013-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+14:53:44.027-[DESKTOP-95ETNH9][sys]-- INFO 17500 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:53:44.048-[DESKTOP-95ETNH9][sys]--ERROR 17500 --- [           main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.amqp.rabbit.config.internalRabbitListenerEndpointRegistry'; nested exception is org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.freerun.message.MessageApplication.main(MessageApplication.java:19) ~[classes/:na]
+Caused by: org.springframework.amqp.AmqpIllegalStateException: Fatal exception on listener startup
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.waitForConsumersToStart(SimpleMessageListenerContainer.java:602) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doStart(SimpleMessageListenerContainer.java:562) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:1405) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistry.startIfNecessary(RabbitListenerEndpointRegistry.java:289) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistry.start(RabbitListenerEndpointRegistry.java:239) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.22.jar:5.3.22]
+	... 12 common frames omitted
+Caused by: org.springframework.amqp.rabbit.listener.exception.FatalListenerStartupException: Authentication failure
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:619) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1376) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1221) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: org.springframework.amqp.AmqpAuthenticationException: com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:64) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:725) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$RabbitResourceFactory.createConnection(ConnectionFactoryUtils.java:331) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:135) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:97) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:80) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:613) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	... 3 common frames omitted
+Caused by: com.rabbitmq.client.AuthenticationFailureException: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:385) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1225) ~[amqp-client-5.14.2.jar:5.14.2]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173) ~[amqp-client-5.14.2.jar:5.14.2]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565) ~[spring-rabbit-2.4.6.jar:2.4.6]
+	... 10 common frames omitted
+14:53:44.049-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:53:44.049-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [      Thread-15] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:53:44.049-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [      Thread-15] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:53:44.049-[DESKTOP-95ETNH9][sys]-- WARN 17500 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
