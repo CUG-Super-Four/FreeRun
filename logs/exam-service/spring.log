@@ -1,0 +1,159 @@
+13:11:24.440-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.freerun.exam.ExamApplication         : The following 1 profile is active: "dev"
+13:11:25.320-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+13:11:25.322-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:11:25.351-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+13:11:25.564-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=de38bf87-48dc-363e-a1c5-86e2cf02fba0
+13:11:25.615-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.615-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.616-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.641-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.644-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.645-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.646-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$609/0x00000008005bf840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.646-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.648-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.650-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:25.651-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+13:11:25.690-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+13:11:25.693-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+13:11:25.731-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+13:11:25.778-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+13:11:25.788-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+13:11:25.998-[DESKTOP-95ETNH9][sys]--ERROR 34892 --- [           main] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+13:11:25.998-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[exam-service] txServiceGroup[freerun]
+13:11:26.004-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+13:11:26.005-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+13:11:26.010-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+13:11:26.010-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[exam-service] txServiceGroup[freerun]
+13:11:26.010-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+13:11:26.012-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:26.129-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:26.131-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:26.158-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:26.160-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:11:26.381-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+13:11:26.388-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:11:26.388-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+13:11:26.496-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:11:26.496-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2046 ms
+13:11:26.657-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+13:11:27.076-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+13:11:27.135-[DESKTOP-95ETNH9][sys]--ERROR 34892 --- [           main] i.s.c.r.netty.NettyClientChannelManager  : no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+13:11:27.892-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:28.019-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:28.176-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+13:11:28.490-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:28.591-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config init.
+13:11:28.592-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.f.c.autoconfigure.xxljob.XxlJobConfig  : >>>>>>>>>>> xxl-job config end.
+13:11:29.418-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.429-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.442-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.453-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'exam-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.466-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.476-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'promotion-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.487-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'remark-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.497-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'search-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.506-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
+13:11:29.621-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+13:11:29.621-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+13:11:29.621-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+13:11:29.657-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+13:11:29.660-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8089, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@exam-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+13:11:29.661-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@exam-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8089, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+13:11:29.682-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP exam-service 8.149.138.1:8089 register finished
+13:11:29.731-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [      Thread-22] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+13:11:30.070-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.freerun.exam.ExamApplication         : Started ExamApplication in 7.332 seconds (JVM running for 8.035)
+13:11:30.074-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] exam-service-dev.yaml+DEFAULT_GROUP
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=exam-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=exam-service-dev.yaml, group=DEFAULT_GROUP
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] exam-service.yaml+DEFAULT_GROUP
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=exam-service.yaml, group=DEFAULT_GROUP, cnt=1
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=exam-service.yaml, group=DEFAULT_GROUP
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] exam-service+DEFAULT_GROUP
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=exam-service, group=DEFAULT_GROUP, cnt=1
+13:11:30.075-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=exam-service, group=DEFAULT_GROUP
+13:11:30.076-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [           main] com.freerun.exam.ExamApplication         : --/
+---------------------------------------------------------------------------------------
+	Application 'exam-service' is running! Access URLs:
+	Local: 		http://localhost:8089
+	External: 	http://172.27.168.7:8089
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+13:11:30.707-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@exam-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8089#DEFAULT#DEFAULT_GROUP@@exam-service","ip":"8.149.138.1","port":8089,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@exam-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:11:30.722-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@exam-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8089#DEFAULT#DEFAULT_GROUP@@exam-service","ip":"8.149.138.1","port":8089,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@exam-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:11:32.739-[DESKTOP-95ETNH9][sys]--ERROR 34892 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+13:11:32.739-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='exam-service', registryValue='http://172.27.168.7:9999/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(connect timed out), for url : http://8.149.138.1:8880/xxl-job-admin/api/registry, content=null]
+13:11:59.078-[DESKTOP-95ETNH9][sys]-- WARN 34892 --- [      Thread-11] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+13:11:59.078-[DESKTOP-95ETNH9][sys]-- WARN 34892 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+13:11:59.078-[DESKTOP-95ETNH9][sys]-- WARN 34892 --- [      Thread-11] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+13:11:59.079-[DESKTOP-95ETNH9][sys]-- WARN 34892 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+13:11:59.220-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [      Thread-22] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server stop.
+13:12:02.231-[DESKTOP-95ETNH9][sys]--ERROR 34892 --- [rRegistryThread] c.xxl.job.core.util.XxlJobRemotingUtil   : connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:608) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015) ~[na:na]
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.biz.client.AdminBizClient.registryRemove(AdminBizClient.java:47) ~[xxl-job-core-2.3.1.jar:na]
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:84) ~[xxl-job-core-2.3.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+13:12:02.231-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='exam-service', registryValue='http://172.27.168.7:9999/'}, registryResult:ReturnT [code=500, msg=xxl-job remoting error(connect timed out), for url : http://8.149.138.1:8880/xxl-job-admin/api/registryRemove, content=null]
+13:12:02.232-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [rRegistryThread] c.x.j.c.thread.ExecutorRegistryThread    : >>>>>>>>>>> xxl-job, executor registry thread destroy.
+13:12:02.232-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.xxl.job.core.server.EmbedServer      : >>>>>>>>>>> xxl-job remoting server destroy success.
+13:12:02.232-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [FileCleanThread] c.x.j.core.thread.JobLogFileCleanThread  : >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+13:12:02.232-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [rCallbackThread] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor callback thread destroy.
+13:12:02.232-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [      Thread-21] c.x.j.core.thread.TriggerCallbackThread  : >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+13:12:02.233-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+13:12:02.234-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@exam-service:8.149.138.1:8089 from beat map.
+13:12:02.234-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@exam-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8089, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+13:12:02.256-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+13:12:02.257-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+13:12:04.854-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+13:12:04.856-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+13:12:07.877-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+13:12:10.899-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+13:12:10.900-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+13:12:10.900-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+13:12:10.900-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+13:12:10.900-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+13:12:10.900-[DESKTOP-95ETNH9][sys]-- WARN 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+13:12:10.900-[DESKTOP-95ETNH9][sys]-- WARN 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+13:12:10.901-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+13:12:10.901-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+13:12:10.901-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+13:12:10.909-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+13:12:11.118-[DESKTOP-95ETNH9][sys]-- INFO 34892 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
