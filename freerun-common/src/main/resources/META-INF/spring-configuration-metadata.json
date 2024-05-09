@@ -88,7 +88,7 @@
       "name": "freerun.mq.host",
       "type": "java.lang.String",
       "description": "rabbitmq的地址",
-      "defaultValue": "192.168.150.101"
+      "defaultValue": "8.149.138.1"
     },
     {
       "name": "freerun.mq.port",
@@ -193,7 +193,7 @@
       "defaultValue": "8.149.138.1"
     },
     {
-      "name": "freerunjdbc.port",
+      "name": "freerun.jdbc.port",
       "type": "java.lang.Integer",
       "description": "数据库端口",
       "defaultValue": "3306"
