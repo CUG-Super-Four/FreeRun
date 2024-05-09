@@ -1,0 +1,37 @@
+server:
+  port: 8088  #端口
+  tomcat:
+    uri-encoding: UTF-8   #服务编码
+spring:
+  profiles:
+    active: dev
+  application:
+    name: trade-service
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        shared-configs: # 共享配置
+          - dataId: shared-spring.yaml # 共享spring配置
+          - dataId: shared-redis.yaml # 共享redis配置
+          - dataId: shared-mybatis.yaml # 共享mybatis配置
+          - dataId: shared-logs.yaml # 共享日志配置
+          - dataId: shared-feign.yaml # 共享feign配置
+          - dataId: shared-mq.yaml # 共享mq配置
+          - dataId: shared-xxljob.yaml # 共享mq配置
+
+freerun:
+  swagger:
+    enable: true
+    enableResponseWrap: true
+    package-path: com.freerun.trade.controller
+    title: 飞软 - 评价中心接口文档
+    description: 该服务包含评价、点赞等功能
+    version: v1.0
+  jdbc:
+    database: FreeRun_trade
+  auth:
+    resource:
+      enable: true # 登录拦截功能
+      excludeLoginPaths:
+        - "/order-details/enrollNum"
