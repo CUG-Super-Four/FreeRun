@@ -1,0 +1,181 @@
+13:17:17.624-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+13:17:18.252-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+13:17:18.253-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:17:18.266-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+13:17:18.410-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+13:17:18.517-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:18.518-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:18.519-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:18.629-[DESKTOP-95ETNH9][sys]-- WARN 3136 --- [           main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\SE-freerun\FreeRun\freerun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+13:17:18.643-[DESKTOP-95ETNH9][sys]-- INFO 3136 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:17:18.667-[DESKTOP-95ETNH9][sys]--ERROR 3136 --- [           main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authProperties' defined in file [C:\Users\86180\Desktop\SE-freerun\FreeRun\freerun-gateway\target\classes\com\freerun\gateway\config\AuthProperties.class]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at com.freerun.gateway.GatewayApplication.main(GatewayApplication.java:19) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at com.freerun.gateway.config.AuthProperties.afterPropertiesSet(AuthProperties.java:20) ~[classes/:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 14 common frames omitted
+13:17:18.668-[DESKTOP-95ETNH9][sys]-- WARN 3136 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+13:17:43.823-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+13:17:44.342-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+13:17:44.344-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:17:44.356-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+13:17:44.498-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+13:17:44.605-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:44.607-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:44.608-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:17:44.916-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+13:17:44.920-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+13:17:44.920-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+13:17:44.920-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+13:17:45.020-[DESKTOP-95ETNH9][sys]--ERROR 27428 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址失败，原因：数据为空
+13:17:45.624-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+13:17:45.625-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+13:17:46.208-[DESKTOP-95ETNH9][sys]-- WARN 27428 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+13:17:46.444-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 10010
+13:17:46.790-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=10010, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@gateway-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+13:17:46.790-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@gateway-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=10010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+13:17:46.811-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP gateway-service 8.149.138.1:10010 register finished
+13:17:46.920-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] com.freerun.gateway.GatewayApplication   : Started GatewayApplication in 4.453 seconds (JVM running for 5.094)
+13:17:46.923-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service-dev.yaml+DEFAULT_GROUP
+13:17:46.924-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+13:17:46.924-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service-dev.yaml, group=DEFAULT_GROUP
+13:17:46.924-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service+DEFAULT_GROUP
+13:17:46.924-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service, group=DEFAULT_GROUP, cnt=1
+13:17:46.924-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service, group=DEFAULT_GROUP
+13:17:46.934-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service.yaml+DEFAULT_GROUP
+13:17:46.934-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service.yaml, group=DEFAULT_GROUP, cnt=1
+13:17:46.934-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service.yaml, group=DEFAULT_GROUP
+13:17:46.934-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [           main] com.freerun.gateway.GatewayApplication   : --/
+---------------------------------------------------------------------------------------
+	Application 'gateway-service' is running! Access URLs:
+	Local: 		http://localhost:10010
+	External: 	http://172.27.168.7:10010
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+13:17:47.345-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:17:47.358-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:17:55.030-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+13:17:55.031-[DESKTOP-95ETNH9][sys]--ERROR 27428 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址失败，原因：数据为空
+13:18:05.034-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+13:18:05.035-[DESKTOP-95ETNH9][sys]--ERROR 27428 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址失败，原因：数据为空
+13:18:06.228-[DESKTOP-95ETNH9][sys]-- WARN 27428 --- [      Thread-12] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+13:18:06.228-[DESKTOP-95ETNH9][sys]-- WARN 27428 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+13:18:06.228-[DESKTOP-95ETNH9][sys]-- WARN 27428 --- [      Thread-12] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+13:18:06.229-[DESKTOP-95ETNH9][sys]-- WARN 27428 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+13:18:06.245-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+13:18:06.245-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@gateway-service:8.149.138.1:10010 from beat map.
+13:18:06.245-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@gateway-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=10010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+13:18:06.265-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+13:18:06.265-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+13:18:06.892-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+13:18:06.893-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+13:18:07.409-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+13:18:07.419-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> []
+13:18:09.926-[DESKTOP-95ETNH9][sys]-- INFO 27428 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+13:18:32.700-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] com.freerun.gateway.GatewayApplication   : The following 1 profile is active: "dev"
+13:18:33.213-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+13:18:33.214-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:18:33.226-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+13:18:33.366-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=29adf4db-8503-310c-a0a2-e56679e58ef9
+13:18:33.481-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:18:33.482-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:18:33.483-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:18:33.781-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载auth服务地址
+13:18:33.784-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+13:18:33.784-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+13:18:33.785-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+13:18:33.889-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@auth-service -> [{"instanceId":"8.149.138.1#8081#DEFAULT#DEFAULT_GROUP@@auth-service","ip":"8.149.138.1","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@auth-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+13:18:33.908-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@auth-service -> [{"instanceId":"8.149.138.1#8081#DEFAULT#DEFAULT_GROUP@@auth-service","ip":"8.149.138.1","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@auth-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+13:18:33.912-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 加载auth服务地址成功，http://8.149.138.1:8081/jwks
+13:18:33.912-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [hFetchJwkThread] c.f.a.gateway.util.JwtSignerHolder       : 尝试加载jwk秘钥
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+13:18:34.473-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+13:18:35.002-[DESKTOP-95ETNH9][sys]-- WARN 12624 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+13:18:35.239-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 10010
+13:18:35.576-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=10010, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@gateway-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+13:18:35.577-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@gateway-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=10010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+13:18:35.598-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP gateway-service 8.149.138.1:10010 register finished
+13:18:35.686-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] com.freerun.gateway.GatewayApplication   : Started GatewayApplication in 4.357 seconds (JVM running for 4.962)
+13:18:35.689-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service-dev.yaml+DEFAULT_GROUP
+13:18:35.690-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+13:18:35.690-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service-dev.yaml, group=DEFAULT_GROUP
+13:18:35.690-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service+DEFAULT_GROUP
+13:18:35.690-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service, group=DEFAULT_GROUP, cnt=1
+13:18:35.690-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service, group=DEFAULT_GROUP
+13:18:35.692-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] gateway-service.yaml+DEFAULT_GROUP
+13:18:35.692-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=gateway-service.yaml, group=DEFAULT_GROUP, cnt=1
+13:18:35.692-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=gateway-service.yaml, group=DEFAULT_GROUP
+13:18:35.692-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [           main] com.freerun.gateway.GatewayApplication   : --/
+---------------------------------------------------------------------------------------
+	Application 'gateway-service' is running! Access URLs:
+	Local: 		http://localhost:10010
+	External: 	http://172.27.168.7:10010
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+13:18:36.127-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+13:18:36.133-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@gateway-service@@DEFAULT -> [{"instanceId":"8.149.138.1#10010#DEFAULT#DEFAULT_GROUP@@gateway-service","ip":"8.149.138.1","port":10010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+13:18:39.404-[DESKTOP-95ETNH9][sys]-- WARN 12624 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+13:18:39.404-[DESKTOP-95ETNH9][sys]-- WARN 12624 --- [      Thread-12] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+13:18:39.404-[DESKTOP-95ETNH9][sys]-- WARN 12624 --- [      Thread-12] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+13:18:39.405-[DESKTOP-95ETNH9][sys]-- WARN 12624 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+13:18:39.411-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+13:18:39.411-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@gateway-service:8.149.138.1:10010 from beat map.
+13:18:39.411-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@gateway-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=10010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+13:18:39.433-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+13:18:39.433-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+13:18:40.577-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+13:18:40.577-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+13:18:43.612-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+13:18:46.639-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+13:18:46.640-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+13:18:46.641-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+13:18:46.642-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+13:18:46.642-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+13:18:46.643-[DESKTOP-95ETNH9][sys]-- WARN 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+13:18:46.643-[DESKTOP-95ETNH9][sys]-- WARN 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+13:18:46.643-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+13:18:46.644-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+13:18:46.644-[DESKTOP-95ETNH9][sys]-- INFO 12624 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+13:18:46.770-[DESKTOP-95ETNH9][sys]--DEBUG 12624 --- [ionShutdownHook] c.f.a.gateway.util.JwtSignerHolder       : 销毁加载秘钥线程 AuthFetchJwkThread
