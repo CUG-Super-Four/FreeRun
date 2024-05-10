@@ -34,6 +34,9 @@ import static com.freerun.trade.constants.TradeErrorInfo.*;
  * <p>
  * 购物车条目信息，也就是购物车中的课程 服务实现类
  * </p>
+ *
+ * @author 虎哥
+ * @since 2022-08-28
  */
 @Slf4j
 @Service

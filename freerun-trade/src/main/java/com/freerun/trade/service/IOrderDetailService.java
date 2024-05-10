@@ -19,6 +19,9 @@ import java.util.Map;
  * <p>
  * 订单明细 服务类
  * </p>
+ *
+ * @author 虎哥
+ * @since 2022-08-29
  */
 public interface IOrderDetailService extends IService<OrderDetail> {
 

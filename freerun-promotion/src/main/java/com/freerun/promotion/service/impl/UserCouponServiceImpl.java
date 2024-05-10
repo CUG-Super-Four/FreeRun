@@ -48,7 +48,8 @@ import static com.freerun.promotion.constants.PromotionConstants.COUPON_RANGE_KE
  * <p>
  * 用户领取优惠券的记录，是真正使用的优惠券信息 服务实现类
  * </p>
-
+ *
+ * @author 虎哥
  */
 @Service
 @RequiredArgsConstructor

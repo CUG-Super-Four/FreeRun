@@ -1,8 +1,6 @@
 package com.freerun.trade.domain.po;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -14,6 +12,9 @@ import java.time.LocalDateTime;
  * <p>
  * 订单明细
  * </p>
+ *
+ * @author 虎哥
+ * @since 2022-08-29
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

@@ -1,7 +1,7 @@
 package com.freerun.trade.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.freerun.trade.domain.po.Cart;
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.freerun.trade.domain.vo.CartVO;
 
 import java.util.List;
@@ -10,6 +10,9 @@ import java.util.List;
  * <p>
  * 购物车条目信息，也就是购物车中的课程 服务类
  * </p>
+ *
+ * @author 虎哥
+ * @since 2022-08-28
  */
 public interface ICartService extends IService<Cart> {
 

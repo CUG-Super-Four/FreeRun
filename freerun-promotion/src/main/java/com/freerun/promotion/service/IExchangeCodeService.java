@@ -11,7 +11,8 @@ import com.freerun.promotion.domain.vo.ExchangeCodeVO;
  * <p>
  * 兑换码 服务类
  * </p>
-
+ *
+ * @author 虎哥
  */
 public interface IExchangeCodeService extends IService<ExchangeCode> {
     void asyncGenerateCode(Coupon coupon);

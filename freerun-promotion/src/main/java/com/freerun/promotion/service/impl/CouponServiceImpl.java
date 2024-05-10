@@ -28,6 +28,7 @@ import com.freerun.promotion.service.ICouponService;
 import com.freerun.promotion.service.IExchangeCodeService;
 import com.freerun.promotion.service.IUserCouponService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.StringRedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -47,8 +48,10 @@ import static com.freerun.promotion.enums.CouponStatus.*;
  * <p>
  * 优惠券的规则信息 服务实现类
  * </p>
-
+ *
+ * @author 虎哥
  */
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class CouponServiceImpl extends ServiceImpl<CouponMapper, Coupon> implements ICouponService {
@@ -304,5 +307,40 @@ public class CouponServiceImpl extends ServiceImpl<CouponMapper, Coupon> impleme
             }
             return null;
         });
+    }
+
+    @Override
+    public void issueCouponByPage(int page, int size) {
+        // 1.分页查询“未开始”状态的优惠券
+        Page<Coupon> p = lambdaQuery()
+                .eq(Coupon::getStatus, UN_ISSUE.getValue())
+                .page(new Page<>(page, size));
+        // 2.判断是否有需要处理的数据
+        List<Coupon> records = p.getRecords();
+        if (CollUtils.isEmpty(records)) {
+            // 没有数据，结束本次任务
+            return;
+        }
+        // 3.找到需要处理的数据(已经过了发送日期的）
+        LocalDateTime now = LocalDateTime.now();
+        List<Coupon> list = records.stream()
+                .filter(c -> now.isAfter(c.getIssueBeginTime()))
+                .collect(Collectors.toList());
+        if (list.size() < 1) {
+            // 没有到期的券
+            return;
+        }
+        log.debug("找到需要处理的优惠券{}条", list.size());
+
+        // 4.修改券状态
+        List<Long> ids = list.stream().map(Coupon::getId).collect(Collectors.toList());
+        lambdaUpdate()
+                .set(Coupon::getStatus, ISSUING.getValue())
+                .in(Coupon::getId, ids)
+                .update();
+
+        // 5.找到手动领取的优惠券，建立Redis缓存
+        list.stream().filter(c -> ObtainType.PUBLIC.equalsValue(c.getObtainWay().getValue()))
+                .forEach(this::cacheCouponInfo);
     }
 }

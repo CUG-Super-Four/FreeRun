@@ -15,7 +15,8 @@ import java.time.LocalDateTime;
  * <p>
  * 兑换码
  * </p>
-
+ *
+ * @author 虎哥
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

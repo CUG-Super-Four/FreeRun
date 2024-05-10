@@ -17,6 +17,9 @@ import java.util.List;
  * <p>
  * 退款申请 服务类
  * </p>
+ *
+ * @author 虎哥
+ * @since 2022-08-29
  */
 public interface IRefundApplyService extends IService<RefundApply> {
 

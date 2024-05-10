@@ -16,7 +16,8 @@ import java.util.List;
  * <p>
  * 优惠券的规则信息 服务类
  * </p>
-
+ *
+ * @author 虎哥
  */
 public interface ICouponService extends IService<Coupon> {
 
@@ -35,4 +36,6 @@ public interface ICouponService extends IService<Coupon> {
     CouponDetailVO queryCouponById(Long id);
 
     void beginIssueBatch(List<Coupon> coupons);
+
+    void issueCouponByPage(int page, int size);
 }
