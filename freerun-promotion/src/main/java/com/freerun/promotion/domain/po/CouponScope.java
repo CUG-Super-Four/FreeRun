@@ -13,8 +13,7 @@ import java.io.Serializable;
  * <p>
  * 优惠券作用范围信息
  * </p>
- *
- * @author 虎哥
+
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

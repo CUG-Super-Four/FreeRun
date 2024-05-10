@@ -10,9 +10,7 @@ import java.util.List;
  * <p>
  * 退款申请 Mapper 接口
  * </p>
- *
- * @author 虎哥
- * @since 2022-08-29
+
  */
 public interface RefundApplyMapper extends BaseMapper<RefundApply> {
 

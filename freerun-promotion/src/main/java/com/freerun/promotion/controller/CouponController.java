@@ -21,8 +21,7 @@ import java.util.List;
  * <p>
  * 优惠券的规则信息 控制器
  * </p>
- *
- * @author 虎哥
+
  */
 @RestController
 @RequiredArgsConstructor

@@ -26,8 +26,7 @@ import static com.freerun.promotion.constants.PromotionConstants.*;
  * <p>
  * 兑换码 服务实现类
  * </p>
- *
- * @author 虎哥
+
  */
 @Service
 public class ExchangeCodeServiceImpl extends ServiceImpl<ExchangeCodeMapper, ExchangeCode> implements IExchangeCodeService {
