@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-@ConfigurationProperties(prefix = "tj.trade")
+@ConfigurationProperties(prefix = "freerun.trade")
 public class TradeProperties {
     /**
      * 单次允许购买的最大课程数量

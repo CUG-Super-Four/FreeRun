@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-@ConfigurationProperties(prefix = "tj.interests")
+@ConfigurationProperties(prefix = "freerun.interests")
 public class InterestsProperties {
     private int topNumber;
 }
