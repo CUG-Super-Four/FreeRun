@@ -59,6 +59,7 @@ if [ "$DEBUG_PORT" = "0" ]; then
    -p "${PORT}:${PORT}" \
    -e JAVA_OPTS="${JAVA_OPTS}" \
    --memory 300m --memory-swap -1 \
+   ${IMAGE_NAME} \
   || exit 1
 else
   echo "run in debug mode"
@@ -66,6 +67,7 @@ else
    -p "${PORT}:${PORT}" \
    -p ${DEBUG_PORT}:5005 \
    -e JAVA_OPTS="${JAVA_OPTS}" \
+   ${IMAGE_NAME} \
   || exit 1
 fi
 echo "container is running now !! ^_^"
