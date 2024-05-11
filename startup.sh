@@ -1,6 +1,6 @@
 #! /bin/sh
 cd /usr/local/src/script || exit 1
-BASE_PATH='/var/jenkins_home/workspace/freerun'
+BASE_PATH='/var/lib/docker/volumes/freerunjenkinshome/_data/workspace/freerun-build'
 PROJECT_NAME=""
 PROJECT_PATH=''
 CONTAINER_NAME=""
