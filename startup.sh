@@ -4,7 +4,7 @@ BASE_PATH='/var/lib/docker/volumes/freerunjenkinshome/_data/workspace/freerun-bu
 PROJECT_NAME=""
 PROJECT_PATH=''
 CONTAINER_NAME=""
-JAVA_OPTS="-Xms300m -Xmx300m"
+JAVA_OPTS="-Xms500m -Xmx500m"
 PORT=8080
 DEBUG_PORT=0
 while getopts "c:n:d:p:o:a:" opt; do
