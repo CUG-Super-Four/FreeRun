@@ -92,6 +92,7 @@ public class JwtSignerHolder {
                         continue;
                     }
                     // 解析
+                    System.out.println(result);
                     PublicKey publicKey = KeyUtil.generatePublicKey(
                             AsymmetricAlgorithm.RSA_ECB_PKCS1.getValue(),
                             SecureUtil.decode(result)
