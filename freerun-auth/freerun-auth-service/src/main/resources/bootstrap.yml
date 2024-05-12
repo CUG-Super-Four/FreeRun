@@ -22,7 +22,7 @@ spring:
             refresh: false
 encrypt:
   key-store:
-    alias: freerun  #别名
+    alias: tjxt  #别名
     location: classpath:freerun.jks  #KeyStore 证书库名称
     password: tj123321   #证书库密码
     secret: tj123321   #秘钥
