@@ -48,7 +48,7 @@ freerun:
       vodValidSeconds: 7776000
       region: "ap-chongqing"
       procedure: "BasicMultiDRMPreset"
-      urlKey: "1KzYuYgCeBhVEe0MmzWj"
+      urlKey: "nX8qUmO733tmiJfZIE57"
       pfcg: "basicDrmPreset"
     cos:
       enable: true

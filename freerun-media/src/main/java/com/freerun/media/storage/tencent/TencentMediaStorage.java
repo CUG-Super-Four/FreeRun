@@ -89,20 +89,19 @@ public class TencentMediaStorage implements IMediaStorage {
     @Override
     public String getPlaySignature(String fieldId, Long userId, Integer freeExpired) {
         long currentTime = System.currentTimeMillis() / 1000;
+        HashMap<String, Object> contentInfo = new HashMap<>(1);
+        contentInfo.put("audioVideoType","Original");
+        HashMap<String, Object> urlAccessInfo = new HashMap<>(1);
+        urlAccessInfo.put("domain","1317268999.vod-qcloud.com");
+        urlAccessInfo.put("scheme","HTTPS");
 
-        HashMap<String, Object> urlAccessInfo = new HashMap<>(2);
-       /* if (userId != null) {
-            urlAccessInfo.put("uid", String.valueOf(userId));
-        }*/
-        if (freeExpired != null) {
-            urlAccessInfo.put("exper", freeExpired * 60);
-        }
         return JWT.create()
                 .setKey(tencentProperties.getVod().getUrlKey().getBytes(StandardCharsets.UTF_8))
                 .setPayload("appId", tencentProperties.getAppId())
                 .setPayload("fileId", fieldId)
+                .setPayload("contentInfo", contentInfo)
                 .setPayload("currentTimeStamp", currentTime)
-                .setPayload("pcfg", tencentProperties.getVod().getPfcg())
+                //.setPayload("pcfg", tencentProperties.getVod().getPfcg())
                 .setPayload("urlAccessInfo", urlAccessInfo)
                 .sign();
     }

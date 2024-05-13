@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @ConfigurationProperties(prefix = "freerun.tencent")
 public class TencentProperties {
-    private Long appId;
+    private Integer appId;
     private String secretId;
     private String secretKey;
     private VodProperties vod;

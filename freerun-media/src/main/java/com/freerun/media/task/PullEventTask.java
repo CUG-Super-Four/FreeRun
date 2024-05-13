@@ -102,8 +102,16 @@ public class PullEventTask {
             media.setFilename(pt.getFileName());
             media.setMediaUrl(pt.getFileUrl());
             media.setCoverUrl(coverUrl);
-            media.setDuration(md.getDuration());
-            media.setSize(md.getSize());
+//            if (md != null && md.getDuration() != null) {
+//                media.setDuration(md.getDuration());
+//                media.setSize(md.getSize());
+//            } else {
+//                // 处理空值情况，例如设置一个默认值
+//                media.setDuration(0f);
+//                media.setSize(0L);
+//            }
+             media.setDuration(md.getDuration());
+             media.setSize(md.getSize());
             media.setStatus(FileStatus.PROCESSED);
             mediaService.updateMediaProcedureResult(media);
         }
