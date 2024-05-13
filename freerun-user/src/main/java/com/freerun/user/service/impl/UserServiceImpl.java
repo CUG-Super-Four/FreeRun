@@ -121,7 +121,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
     @Override
     public void addUserByPhone(User user, String code) {
         // 1.验证码校验
-        codeService.verifyCode(user.getCellPhone(), code);
+        // codeService.verifyCode(user.getCellPhone(), code);
         // 2.判断手机号是否存在
         Integer count = lambdaQuery().eq(User::getCellPhone, user.getCellPhone()).count();
         if (count > 0) {
@@ -137,7 +137,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
     @Override
     public void updatePasswordByPhone(String cellPhone, String code, String password) {
         // 1.验证码校验
-        codeService.verifyCode(cellPhone, code);
+        // codeService.verifyCode(cellPhone, code);
         // 2.查询用户
         User oldUser = lambdaQuery().eq(User::getCellPhone, cellPhone).one();
         if (oldUser == null) {
