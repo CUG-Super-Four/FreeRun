@@ -47,7 +47,7 @@ freerun:
       enable: true
       vodValidSeconds: 7776000
       region: "ap-chongqing"
-      procedure: "wisehub-base"
+      procedure: "BasicMultiDRMPreset"
       urlKey: "1KzYuYgCeBhVEe0MmzWj"
       pfcg: "basicDrmPreset"
     cos:

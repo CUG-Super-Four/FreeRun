@@ -249,3 +249,771 @@
 15:36:51.870-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
 15:36:51.870-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
 15:36:51.870-[DESKTOP-95ETNH9][sys]-- INFO 9520 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+20:50:11.945-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.freerun.media.MediaApplication       : The following 1 profile is active: "dev"
+20:50:13.131-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8eb0f35b-bd63-337e-ae8a-9441f4bbfb54
+20:50:13.421-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:50:13.425-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:50:13.425-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$569/0x0000000800594840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:50:13.428-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:50:13.455-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:50:13.458-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:50:13.699-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+20:50:13.709-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+20:50:13.709-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+20:50:13.875-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+20:50:13.876-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1912 ms
+20:50:16.562-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+20:50:16.663-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+20:50:16.684-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+20:50:16.889-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+20:50:17.312-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+20:50:17.328-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+20:50:18.574-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+20:50:18.575-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+20:50:18.575-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+20:50:18.682-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+20:50:18.689-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8084, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@media-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+20:50:18.691-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+20:50:18.715-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP media-service 8.149.138.1:8084 register finished
+20:50:19.683-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+20:50:19.689-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+20:50:19.715-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:50:19.716-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.freerun.media.MediaApplication       : Started MediaApplication in 10.778 seconds (JVM running for 13.177)
+20:50:19.720-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service-dev.yaml+DEFAULT_GROUP
+20:50:19.720-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+20:50:19.721-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service-dev.yaml, group=DEFAULT_GROUP
+20:50:19.721-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service+DEFAULT_GROUP
+20:50:19.721-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service, group=DEFAULT_GROUP, cnt=1
+20:50:19.721-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service, group=DEFAULT_GROUP
+20:50:19.721-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service.yaml+DEFAULT_GROUP
+20:50:19.722-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service.yaml, group=DEFAULT_GROUP, cnt=1
+20:50:19.722-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service.yaml, group=DEFAULT_GROUP
+20:50:19.722-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [           main] com.freerun.media.MediaApplication       : --/
+---------------------------------------------------------------------------------------
+	Application 'media-service' is running! Access URLs:
+	Local: 		http://localhost:8084
+	External: 	http://192.168.154.1:8084
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+20:50:23.143-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:50:33.150-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:50:36.235-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:50:46.236-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:50:49.405-[LAPTOP-PD6U4H4E][sys]--ERROR 30316 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:50:59.410-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:51:02.498-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:51:12.508-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:51:15.579-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:51:25.585-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:51:28.674-[LAPTOP-PD6U4H4E][sys]--ERROR 30316 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:51:38.687-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:51:41.763-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:51:51.777-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:51:54.864-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:52:04.879-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:52:07.962-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:52:17.970-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:52:21.060-[LAPTOP-PD6U4H4E][sys]--ERROR 30316 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:52:31.074-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:52:34.161-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:52:44.165-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:52:47.251-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:52:57.254-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:53:00.342-[LAPTOP-PD6U4H4E][sys]--ERROR 30316 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:53:10.353-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:53:13.440-[LAPTOP-PD6U4H4E][sys]--DEBUG 30316 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:53:20.365-[LAPTOP-PD6U4H4E][sys]-- WARN 30316 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:53:20.365-[LAPTOP-PD6U4H4E][sys]-- WARN 30316 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:53:20.365-[LAPTOP-PD6U4H4E][sys]-- WARN 30316 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:53:20.366-[LAPTOP-PD6U4H4E][sys]-- WARN 30316 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:53:20.872-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:53:20.872-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@media-service:8.149.138.1:8084 from beat map.
+20:53:20.873-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+20:53:20.894-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:53:20.894-[LAPTOP-PD6U4H4E][sys]-- INFO 30316 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+20:53:29.387-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.freerun.media.MediaApplication       : The following 1 profile is active: "dev"
+20:53:30.596-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8eb0f35b-bd63-337e-ae8a-9441f4bbfb54
+20:53:30.830-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:53:30.834-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:53:30.835-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$569/0x0000000800589840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:53:30.837-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:53:30.864-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:53:30.867-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:53:31.106-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+20:53:31.115-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+20:53:31.116-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+20:53:31.261-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+20:53:31.262-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1849 ms
+20:53:33.854-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+20:53:33.956-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+20:53:33.985-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+20:53:34.295-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+20:53:34.746-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+20:53:34.771-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+20:53:35.785-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+20:53:35.785-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+20:53:35.786-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+20:53:35.869-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+20:53:35.875-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8084, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@media-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+20:53:35.876-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+20:53:35.898-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP media-service 8.149.138.1:8084 register finished
+20:53:36.789-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:53:36.791-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.freerun.media.MediaApplication       : Started MediaApplication in 10.483 seconds (JVM running for 11.837)
+20:53:36.794-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service-dev.yaml+DEFAULT_GROUP
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service-dev.yaml, group=DEFAULT_GROUP
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service+DEFAULT_GROUP
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service, group=DEFAULT_GROUP, cnt=1
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service, group=DEFAULT_GROUP
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service.yaml+DEFAULT_GROUP
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service.yaml, group=DEFAULT_GROUP, cnt=1
+20:53:36.795-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service.yaml, group=DEFAULT_GROUP
+20:53:36.796-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [           main] com.freerun.media.MediaApplication       : --/
+---------------------------------------------------------------------------------------
+	Application 'media-service' is running! Access URLs:
+	Local: 		http://localhost:8084
+	External: 	http://192.168.154.1:8084
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+20:53:36.880-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+20:53:36.883-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+20:53:40.089-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:53:50.105-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:53:53.183-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:54:03.193-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:54:06.267-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:54:16.281-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:54:19.364-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:54:29.374-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:54:32.537-[LAPTOP-PD6U4H4E][sys]--ERROR 11988 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:54:42.538-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:54:45.615-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:54:55.631-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:54:58.707-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:55:08.713-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:55:11.805-[LAPTOP-PD6U4H4E][sys]--ERROR 11988 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:55:21.819-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:55:24.893-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:55:34.899-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:55:38.051-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:55:48.055-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:55:51.182-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:56:01.186-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:56:04.273-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:56:14.273-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:56:17.348-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:56:27.353-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:56:30.437-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:56:40.448-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:56:43.548-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:56:53.549-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:56:56.619-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:57:06.628-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:57:09.708-[LAPTOP-PD6U4H4E][sys]--ERROR 11988 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:57:19.713-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:57:22.796-[LAPTOP-PD6U4H4E][sys]--DEBUG 11988 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:57:24.151-[LAPTOP-PD6U4H4E][sys]-- WARN 11988 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+20:57:24.151-[LAPTOP-PD6U4H4E][sys]-- WARN 11988 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+20:57:24.151-[LAPTOP-PD6U4H4E][sys]-- WARN 11988 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+20:57:24.152-[LAPTOP-PD6U4H4E][sys]-- WARN 11988 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+20:57:24.618-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+20:57:24.619-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@media-service:8.149.138.1:8084 from beat map.
+20:57:24.619-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+20:57:24.640-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+20:57:24.640-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+20:57:27.271-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+20:57:27.271-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+20:57:27.630-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+20:57:27.632-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@media-service@@DEFAULT -> []
+20:57:27.633-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+20:57:30.650-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+20:57:30.650-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+20:57:30.650-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+20:57:30.650-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+20:57:30.650-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+20:57:30.651-[LAPTOP-PD6U4H4E][sys]-- WARN 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+20:57:30.651-[LAPTOP-PD6U4H4E][sys]-- WARN 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+20:57:30.651-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+20:57:30.651-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+20:57:30.651-[LAPTOP-PD6U4H4E][sys]-- INFO 11988 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+20:57:36.294-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.freerun.media.MediaApplication       : The following 1 profile is active: "dev"
+20:57:37.246-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8eb0f35b-bd63-337e-ae8a-9441f4bbfb54
+20:57:37.520-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:57:37.524-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:57:37.525-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$569/0x0000000800594840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:57:37.528-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:57:37.554-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:57:37.556-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:57:37.770-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+20:57:37.779-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+20:57:37.780-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+20:57:37.923-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+20:57:37.923-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1615 ms
+20:57:40.327-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+20:57:40.407-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'learning-service' URL not provided. Will try picking an instance via load-balancing.
+20:57:40.426-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+20:57:40.624-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+20:57:41.021-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'course-service' URL not provided. Will try picking an instance via load-balancing.
+20:57:41.037-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.c.openfeign.FeignClientFactoryBean   : For 'auth-service' URL not provided. Will try picking an instance via load-balancing.
+20:57:41.974-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+20:57:41.975-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+20:57:41.975-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+20:57:42.045-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+20:57:42.049-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: BeatInfo{port=8084, ip='8.149.138.1', weight=1.0, serviceName='DEFAULT_GROUP@@media-service', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+20:57:42.050-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc registering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+20:57:42.072-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP media-service 8.149.138.1:8084 register finished
+20:57:42.937-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:57:42.938-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.freerun.media.MediaApplication       : Started MediaApplication in 9.275 seconds (JVM running for 10.638)
+20:57:42.942-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service-dev.yaml+DEFAULT_GROUP
+20:57:42.943-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service-dev.yaml, group=DEFAULT_GROUP, cnt=1
+20:57:42.943-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service-dev.yaml, group=DEFAULT_GROUP
+20:57:42.943-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service+DEFAULT_GROUP
+20:57:42.943-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service, group=DEFAULT_GROUP, cnt=1
+20:57:42.943-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service, group=DEFAULT_GROUP
+20:57:42.943-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.n.client.config.impl.ClientWorker    : [fixed-8.149.138.1_8848] [subscribe] media-service.yaml+DEFAULT_GROUP
+20:57:42.943-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.nacos.client.config.impl.CacheData   : [fixed-8.149.138.1_8848] [add-listener] ok, tenant=, dataId=media-service.yaml, group=DEFAULT_GROUP, cnt=1
+20:57:42.944-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] c.a.c.n.refresh.NacosContextRefresher    : listening config: dataId=media-service.yaml, group=DEFAULT_GROUP
+20:57:42.944-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [           main] com.freerun.media.MediaApplication       : --/
+---------------------------------------------------------------------------------------
+	Application 'media-service' is running! Access URLs:
+	Local: 		http://localhost:8084
+	External: 	http://192.168.154.1:8084
+	Profile(s): 	[dev]
+---------------------------------------------------------------------------------------
+20:57:43.057-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [.naming.updater] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+20:57:43.060-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+20:57:46.374-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:57:56.384-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:57:59.451-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:58:09.461-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:58:12.548-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:58:22.559-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:58:25.625-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:58:35.636-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:58:38.707-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:58:48.712-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:58:51.793-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:59:01.797-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:59:04.897-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+20:59:14.913-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:59:17.994-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:59:28.006-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:59:31.093-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:59:41.096-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:59:44.210-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+20:59:54.224-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+20:59:57.316-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:00:07.317-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:00:10.385-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:00:20.398-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:00:23.480-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:00:33.491-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:00:36.580-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:00:46.584-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:00:49.659-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:00:59.675-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:01:02.748-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:01:12.753-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:01:15.835-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:01:25.851-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:01:28.922-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:01:38.925-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:01:42.001-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:01:52.010-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:01:55.089-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:02:05.099-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:02:08.171-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:02:18.176-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:02:21.275-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:02:31.277-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:02:34.361-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:02:44.369-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:02:47.440-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:02:57.445-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:03:00.530-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:03:10.534-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:03:13.629-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:03:23.644-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:03:26.714-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:03:36.726-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:03:39.803-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:03:49.813-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:03:52.945-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:04:02.960-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:04:06.042-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:04:16.055-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:04:19.185-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:04:29.188-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:04:32.286-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:04:42.296-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:04:45.385-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:04:55.389-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:04:58.473-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:05:08.478-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:05:11.542-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:05:21.556-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:05:24.632-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:05:34.641-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:05:37.714-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:05:47.724-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:05:50.806-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:06:00.814-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:06:03.912-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:06:13.920-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:06:17.010-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:06:27.011-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:06:30.085-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:06:40.092-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:06:43.182-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:06:53.197-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:06:56.269-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:07:06.270-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:07:09.359-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:07:19.366-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:07:22.462-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:07:32.472-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:07:35.540-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:07:45.555-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:07:48.628-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:07:58.635-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:08:01.706-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:08:11.715-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:08:14.793-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:08:24.808-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:08:27.889-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:08:37.905-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:08:40.982-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:08:50.985-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:08:54.072-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:09:04.074-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:09:07.147-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:09:17.156-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:09:20.222-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:09:30.234-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:09:33.328-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:09:43.333-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:09:46.410-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:09:56.425-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:09:59.519-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:10:09.523-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:10:12.598-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:10:22.609-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:10:25.683-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:10:35.695-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:10:38.772-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:10:48.774-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:10:51.848-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:11:01.850-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:11:04.929-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:11:14.934-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:11:18.012-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:11:28.021-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:11:31.101-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:11:41.103-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:11:44.191-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:11:54.201-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:11:57.278-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:12:07.287-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:12:10.411-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:12:20.426-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:12:23.494-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:12:33.504-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:12:36.575-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:12:46.576-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:12:49.657-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:12:59.668-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:13:02.757-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:13:12.763-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:13:15.856-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:13:25.864-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:13:28.938-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:13:38.952-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:13:42.054-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:13:52.065-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:13:55.141-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:14:05.153-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:14:08.248-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:14:18.254-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:14:21.340-[LAPTOP-PD6U4H4E][sys]--ERROR 28524 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at com.freerun.media.task.PullEventTask.handleProcedureStateChangeEvent(PullEventTask.java:105) ~[classes/:na]
+	at com.freerun.media.task.PullEventTask.pullEvent(PullEventTask.java:48) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+21:14:31.343-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:14:34.432-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:14:44.442-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 准备拉取vod事件
+21:14:47.526-[LAPTOP-PD6U4H4E][sys]--DEBUG 28524 --- [   scheduling-1] com.freerun.media.task.PullEventTask     : 暂无event事件
+21:14:51.056-[LAPTOP-PD6U4H4E][sys]-- WARN 28524 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+21:14:51.056-[LAPTOP-PD6U4H4E][sys]-- WARN 28524 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+21:14:51.056-[LAPTOP-PD6U4H4E][sys]-- WARN 28524 --- [      Thread-14] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+21:14:51.057-[LAPTOP-PD6U4H4E][sys]-- WARN 28524 --- [       Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+21:14:51.527-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+21:14:51.527-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@media-service:8.149.138.1:8084 from beat map.
+21:14:51.528-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 3153b4cb-d212-422d-baeb-8f05318137bc deregistering service DEFAULT_GROUP@@media-service with instance: Instance{instanceId='null', ip='8.149.138.1', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+21:14:51.552-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+21:14:51.552-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+21:14:54.145-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+21:14:54.146-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+21:14:56.815-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [.naming.updater] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@media-service@@DEFAULT -> [{"instanceId":"8.149.138.1#8084#DEFAULT#DEFAULT_GROUP@@media-service","ip":"8.149.138.1","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@media-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+21:14:56.816-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [.naming.updater] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@media-service@@DEFAULT -> []
+21:14:56.818-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+21:14:59.844-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+21:14:59.844-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+21:14:59.844-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+21:14:59.844-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+21:14:59.845-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+21:14:59.845-[LAPTOP-PD6U4H4E][sys]-- WARN 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+21:14:59.845-[LAPTOP-PD6U4H4E][sys]-- WARN 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+21:14:59.845-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] c.a.n.client.identify.CredentialWatcher  : [null] CredentialWatcher is stopped
+21:14:59.845-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] c.a.n.client.identify.CredentialService  : [null] CredentialService is freed
+21:14:59.845-[LAPTOP-PD6U4H4E][sys]-- INFO 28524 --- [ionShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
