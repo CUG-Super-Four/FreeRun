@@ -40,15 +40,15 @@ freerun:
     file: TENCENT
     media: TENCENT
   tencent:
-    appId: 1312394356
-    secretId: AKIDDG3arrZ0B42sXzEOM8h182jDVbVDiAPS
-    secretKey: uc7RaXIqDPOAk9MAnAG5duvf8LHvIODl
+    appId: 1317268999
+    secretId: AKIDPfhX8UdXEftwnY6SZQ1ObbQ1NWfYDi2C
+    secretKey: 5ye5GLFzYxAqJZaKtNdkt11qVv5yDEzZ
     vod:
       enable: true
       vodValidSeconds: 7776000
-      region: "ap-shanghai"
+      region: "ap-chongqing"
       procedure: "wisehub-base"
-      urlKey: "HZFlxjPYoOm5AfShupOx"
+      urlKey: "1KzYuYgCeBhVEe0MmzWj"
       pfcg: "basicDrmPreset"
     cos:
       enable: true
