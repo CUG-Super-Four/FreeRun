@@ -525,7 +525,7 @@ public class CourseCatalogueDraftServiceImpl extends ServiceImpl<CourseCatalogue
 
         // 最大上架数,待上架设置空map，已上架需要排序并去小节序号（同一个章中）中最大小节
         Map<Long, CourseCatalogueDraft> chapterIdAndMaxSectionMap =
-                (courseDraft.getStatus() == CourseStatus.NO_UP_SHELF.getStatus())
+                (courseDraft.getStatus().equals(CourseStatus.NO_UP_SHELF.getStatus()))
                         ? new HashMap<>() :
                         courseCatalogueDrafts.parallelStream()
                                 .filter(ccd -> ccd.getType() == CourseConstants.CataType.SECTION && !ccd.getCanUpdate())
@@ -534,7 +534,7 @@ public class CourseCatalogueDraftServiceImpl extends ServiceImpl<CourseCatalogue
                                                 Collectors.reducing(
                                                         (c1, c2) -> c2.getCIndex().compareTo(c1.getCIndex()) > 0 ? c2 : c1),
                                                 Optional::get)));
-        int maxChapterIndex = (courseDraft.getStatus() == CourseStatus.NO_UP_SHELF.getStatus())
+        int maxChapterIndex = (courseDraft.getStatus().equals(CourseStatus.NO_UP_SHELF.getStatus()))
                 ? 0
                 : courseCatalogueDrafts.stream()
                 .filter(ccd -> ccd.getType() == CourseConstants.CataType.CHAPTER && !ccd.getCanUpdate())

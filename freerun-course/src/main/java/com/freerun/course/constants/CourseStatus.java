@@ -16,7 +16,7 @@ public enum CourseStatus {
 
     public static String desc(Integer status) {
         for (CourseStatus courseStatus : values()) {
-            if (courseStatus.getStatus() == status) {
+            if (courseStatus.getStatus().equals(status)) {
                 return courseStatus.getDesc();
             }
         }

@@ -75,7 +75,9 @@ public class NotifyServiceImpl implements INotifyService {
 
         // 4.校验通知数据，主要是业务校验、幂等校验
         PayOrder payOrder = checkNotifyData(tradingOrderNo, amount, successTime);
-        if (payOrder == null) return;
+        if (payOrder == null) {
+            return;
+        }
 
         // 5.通知业务服务
         rabbitMqHelper.send(
@@ -117,7 +119,9 @@ public class NotifyServiceImpl implements INotifyService {
 
         // 3.幂等性校验
         RefundOrder refundOrder = checkRefundData(refundOrderNo, status, null);
-        if (refundOrder == null) return;
+        if (refundOrder == null) {
+            return;
+        }
 
         // 4.发送MQ通知业务端
         rabbitMqHelper.send(
@@ -160,7 +164,9 @@ public class NotifyServiceImpl implements INotifyService {
 
         // 4.校验通知数据，主要是业务校验、幂等校验
         PayOrder payOrder = checkNotifyData(tradingOrderNo, amount, successTime);
-        if (payOrder == null) return;
+        if (payOrder == null) {
+            return;
+        }
 
         // 5.通知业务服务
         rabbitMqHelper.send(

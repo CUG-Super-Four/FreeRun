@@ -429,7 +429,7 @@ public class CourseDraftServiceImpl extends ServiceImpl<CourseDraftMapper, Cours
         }
         //课程
         //2.4.已上架/已完结课程不能上架
-        if (course != null && course.getStatus() != CourseStatus.DOWN_SHELF.getStatus()) {
+        if (course != null && !course.getStatus().equals(CourseStatus.DOWN_SHELF.getStatus())) {
             throw new BizIllegalException(CourseErrorInfo.Msg.COURSE_UP_SHELF_STATE_WRONG);
         }
         //2.5.校验课程结束时间

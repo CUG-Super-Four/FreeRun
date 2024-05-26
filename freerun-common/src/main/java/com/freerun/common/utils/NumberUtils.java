@@ -42,8 +42,7 @@ public class NumberUtils extends NumberUtil {
 
 
     public static Double setScale(Double number) {
-        return new BigDecimal(number)
-                .setScale(2, BigDecimal.ROUND_HALF_UP)
+        return new BigDecimal(number).setScale(2, BigDecimal.ROUND_HALF_UP)
                 .doubleValue();
     }
     /**

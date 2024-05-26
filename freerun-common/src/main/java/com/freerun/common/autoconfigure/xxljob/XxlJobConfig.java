@@ -24,19 +24,25 @@ public class XxlJobConfig {
         }
         XxlJobProperties.Executor executor = prop.getExecutor();
         if (executor != null) {
-            if (executor.getAppName() != null)
+            if (executor.getAppName() != null) {
                 xxlJobSpringExecutor.setAppname(executor.getAppName());
-            if (executor.getIp() != null)
+            }
+            if (executor.getIp() != null) {
                 xxlJobSpringExecutor.setIp(executor.getIp());
-            if (executor.getPort() != null)
+            }
+            if (executor.getPort() != null) {
                 xxlJobSpringExecutor.setPort(executor.getPort());
-            if (executor.getLogPath() != null)
+            }
+            if (executor.getLogPath() != null) {
                 xxlJobSpringExecutor.setLogPath(executor.getLogPath());
-            if (executor.getLogRetentionDays() != null)
+            }
+            if (executor.getLogRetentionDays() != null) {
                 xxlJobSpringExecutor.setLogRetentionDays(executor.getLogRetentionDays());
+            }
         }
-        if (prop.getAccessToken() != null)
+        if (prop.getAccessToken() != null) {
             xxlJobSpringExecutor.setAccessToken(prop.getAccessToken());
+        }
         log.info(">>>>>>>>>>> xxl-job config end.");
         return xxlJobSpringExecutor;
     }

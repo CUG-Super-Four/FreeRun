@@ -17,7 +17,7 @@ public class SubjectConstants {
 
         public static String desc(Integer subjectType) {
             for (Type type : values()) {
-                if (type.type == subjectType) {
+                if (type.type.equals(subjectType)) {
                     return type.desc;
                 }
             }
@@ -35,7 +35,7 @@ public class SubjectConstants {
 
         public static String desc(Integer type) {
             for (Difficult difficult : values()) {
-                if (difficult.getType() == type) {
+                if (difficult.getType().equals(type)) {
                     return difficult.desc;
                 }
             }

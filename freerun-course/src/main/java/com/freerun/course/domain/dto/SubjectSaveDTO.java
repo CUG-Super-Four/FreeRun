@@ -54,9 +54,9 @@ public class SubjectSaveDTO implements Checker {
     @Override
     public void check() {
         //选择题 单选，多选，不定向选择
-        if(subjectType == SubjectConstants.Type.SIGNLE_CHOICE.getType() ||
-                subjectType == SubjectConstants.Type.MUtiple_CHOICE.getType() ||
-                subjectType == SubjectConstants.Type.NON_DIRECTIONAL_CHOICE.getType()){
+        if(subjectType.equals(SubjectConstants.Type.SIGNLE_CHOICE.getType()) ||
+                subjectType.equals(SubjectConstants.Type.MUtiple_CHOICE.getType()) ||
+                subjectType.equals(SubjectConstants.Type.NON_DIRECTIONAL_CHOICE.getType())){
             Integer answerOptionMax = answers.stream().max(Integer::compare).get();
             //选项最少1个最多10个
             if(CollUtils.isEmpty(options) || options.size() > 10){

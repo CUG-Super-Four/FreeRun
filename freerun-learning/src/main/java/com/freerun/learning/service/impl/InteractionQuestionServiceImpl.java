@@ -74,7 +74,7 @@ public class InteractionQuestionServiceImpl extends ServiceImpl<InteractionQuest
         }
         // 2.分页查询
         Page<InteractionQuestion> page = lambdaQuery()
-                .select(InteractionQuestion.class, info -> !info.getProperty().equals("description"))
+                .select(InteractionQuestion.class, info -> !"description".equals(info.getProperty()))
                 .eq(query.getOnlyMine(), InteractionQuestion::getUserId, UserContext.getUser())
                 .eq(courseId != null, InteractionQuestion::getCourseId, courseId)
                 .eq(sectionId != null, InteractionQuestion::getSectionId, sectionId)

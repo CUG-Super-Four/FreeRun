@@ -25,7 +25,7 @@ public class WrapperResponseBodyAdvice implements ResponseBodyAdvice<Object> {
             Object body, @NonNull MethodParameter returnType, @NonNull MediaType selectedContentType,
             @NonNull Class<? extends HttpMessageConverter<?>> selectedConverterType,
             @NonNull ServerHttpRequest request, @NonNull ServerHttpResponse response) {
-        if (request.getURI().getPath().equals("/v2/api-docs")){
+        if ("/v2/api-docs".equals(request.getURI().getPath())){
             return body;
         }
         if (body == null) {

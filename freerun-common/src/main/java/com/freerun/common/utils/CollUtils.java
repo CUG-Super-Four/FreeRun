@@ -62,7 +62,9 @@ public class CollUtils extends CollectionUtil {
         }
         StringBuilder sb = new StringBuilder();
         for (T t : collection) {
-            if(t == null) continue;
+            if(t == null) {
+                continue;
+            }
             sb.append(t).append(",");
         }
         if(sb.length() <= 0){

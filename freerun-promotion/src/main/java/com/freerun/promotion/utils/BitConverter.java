@@ -334,19 +334,22 @@ public class BitConverter {
      * @return 字符串形式的 <tt>bytes</tt>
      */
     public static String toHexString(byte[] bytes) {
-        if (bytes == null)
+        if (bytes == null) {
             return "null";
+        }
         int iMax = bytes.length - 1;
-        if (iMax == -1)
+        if (iMax == -1) {
             return "[]";
+        }
         String digits = "0123456789abcdef";
         StringBuilder b = new StringBuilder();
         b.append('[');
         for (int i = 0; ; i++) {
             b.append(digits.charAt((0xF0 & bytes[i]) >>> 4));
             b.append(digits.charAt(0x0F & bytes[i]));
-            if (i == iMax)
+            if (i == iMax) {
                 return b.append(']').toString();
+            }
             b.append(',').append(' ');
         }
     }

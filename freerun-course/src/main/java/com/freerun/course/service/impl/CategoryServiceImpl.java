@@ -575,7 +575,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> i
         boolean pass = true;
         // 状态校验
         if (categoryListDTO.getStatus() != null) { //和查询状态一致pass
-            pass = (categoryVO.getStatus() == categoryListDTO.getStatus());
+            pass = (categoryVO.getStatus().equals(categoryListDTO.getStatus()));
         }
         //名称校验
         if (pass && StringUtils.isNotEmpty(categoryListDTO.getName())) {//状态pass通过后校验名称，包含名称关键字 通过

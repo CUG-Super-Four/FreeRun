@@ -56,7 +56,7 @@ public class PullEventTask {
             vodClient.ConfirmEvents(confirmReq);
             log.info("事件处理完毕");
         } catch (TencentCloudSDKException e) {
-            if(e.getMessage().equals("no event")){
+            if("no event".equals(e.getMessage())){
                 log.debug("暂无event事件");
             }else{
                 log.error("VOD事件处理异常", e);
